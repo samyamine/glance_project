@@ -14,3 +14,6 @@ python scraper/scraper.py
 ```
 
 This will retrieve the URLs of all available items of the Asos store.
+
+Exemple de page d'article:
+[New Look Chemise Moulante en Popeline Kaki Clair](https://www.asos.com/fr/new-look/new-look-chemise-moulante-en-popeline-kaki-clair/prd/204740601#colourWayId-204740602)
