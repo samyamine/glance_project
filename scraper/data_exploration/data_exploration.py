@@ -51,6 +51,7 @@ def init_driver():
 
 
 def process_file(lines, n):
+    # FIXME: Get title, description, pictures, care, composition
     file_driver = init_driver()
     lines_to_write = []
     error_lines = []
@@ -80,7 +81,7 @@ def process_file(lines, n):
         else:
             lines_to_write.append(line)
 
-            # Get colors.txt
+            # Get colors
             title = file_driver.find_elements(By.TAG_NAME, "h1")[0].text
             title_colors = re.split(r'\s*-\s*', title)[-1]
             item_colors = re.split(r'\s*/\s*|\s*-\s*|\s+et\s+', title_colors)
@@ -112,6 +113,7 @@ merged_categories = set()
 num_divs = 6
 
 if __name__ == "__main__":
+    # FIXME: Store everything into MongoDB instance
     os.makedirs("errors", exist_ok=True)
     os.makedirs("data", exist_ok=True)
 
@@ -153,6 +155,7 @@ if __name__ == "__main__":
 
         error_file.close()
 
+    # TODO: Instead of writing in file, store in MongoDB
     colors_file = open("data/colors.txt", "w")
     categories_file = open("data/categories.txt", "w")
 
