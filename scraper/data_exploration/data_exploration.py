@@ -27,6 +27,7 @@ def divide_array(arr, x):
 
     return res
 
+
 def init_driver():
     # FIXME: Refacto
     # Init driver + on se rend sur le site ASOS
@@ -79,7 +80,7 @@ def process_file(lines, n):
         else:
             lines_to_write.append(line)
 
-            # Get colors
+            # Get colors.txt
             title = file_driver.find_elements(By.TAG_NAME, "h1")[0].text
             title_colors = re.split(r'\s*-\s*', title)[-1]
             item_colors = re.split(r'\s*/\s*|\s*-\s*|\s+et\s+', title_colors)
@@ -102,15 +103,13 @@ def process_file(lines, n):
 
 
 # ------- DEBUT ------- #
-# os.environ['MOZ_HEADLESS'] = '1'
-
 # links = ["../links/men.txt", "../links/women.txt", "../links/unisexe.txt"]
 links = ["../links/men.txt"]
 
 merged_colors = set()
 merged_categories = set()
 
-num_divs = 5
+num_divs = 6
 
 if __name__ == "__main__":
     os.makedirs("errors", exist_ok=True)
@@ -118,16 +117,16 @@ if __name__ == "__main__":
 
     for link in links:
         print("PROCESSING FILE", link)
-        file = open(link, 'r')
+        file = open("../backup/" + link.split('/')[-1], 'r')
         lines = file.readlines()
         file.close()
 
         # Delete everything in the file
-        file = open(link, 'w')
-        file.close()
+        # file = open(link, 'w')
+        # file.close()
 
         # FIXME: change this not to use numpy
-        subarrays = divide_array(lines, num_divs)
+        subarrays = divide_array(lines[:10000], num_divs)
 
         pool = multiprocessing.Pool(num_divs)
         start_time = time.perf_counter()
@@ -138,7 +137,7 @@ if __name__ == "__main__":
         finish_time = time.perf_counter()
         print(f"Program finished in {finish_time-start_time} seconds")
 
-        error_file = open("errors/mix_match_and_color.txt", "a")
+        error_file = open("errors/men.txt", "a")
 
         for result in results:
             lines_to_write, error_lines, colors, categories = result
@@ -154,8 +153,8 @@ if __name__ == "__main__":
 
         error_file.close()
 
-    colors_file = open("data/colors", "w")
-    categories_file = open("data/categories", "w")
+    colors_file = open("data/colors.txt", "w")
+    categories_file = open("data/categories.txt", "w")
 
     for item in merged_colors:
         colors_file.write(item + "\n")

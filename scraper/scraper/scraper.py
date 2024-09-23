@@ -131,9 +131,9 @@ def go_to_brand_listing(driver, brand):
 
 os.makedirs("links", exist_ok=True)
 
-men_file = open("links/men.txt", "a")
-women_file = open("links/women.txt", "a")
-unisexe_file = open("links/unisexe.txt", "a")
+men_file = open("../links/men.txt", "a")
+women_file = open("../links/women.txt", "a")
+unisexe_file = open("../links/unisexe.txt", "a")
 
 URL_MEN_BRANDS = "https://www.asos.com/fr/homme/a-to-z-of-brands/cat/?cid=1361"
 URL_WOMEN_BRANDS = "https://www.asos.com/fr/femme/a-to-z-of-brands/cat/?cid=1340"
