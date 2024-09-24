@@ -50,3 +50,8 @@ Data Schema in analytical DB:
   ]
 }
 ```
+
+September 24th 2024 - 19:51
+# OUIAM I MISS YOUUUUUUUUUUUUUUUU :( :(
+# WHERE ARE YOUUUUUUUU OUIAAAAAAAAAAM :( :(
+
