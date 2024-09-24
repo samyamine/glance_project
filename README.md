@@ -40,6 +40,7 @@ Data Schema in analytical DB:
   "materials": "List[String]",
   "description": "String",
   "instructions": "String",
+  "url": "String",
   "variants": [
     {
       "color": "String",
