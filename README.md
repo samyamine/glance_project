@@ -44,6 +44,7 @@ Data Schema in analytical DB:
     {
       "color": "String",
       "sizes": "List[String]",
+      "pictures": "List[String]",
       "available": "Boolean"
     }
   ]
