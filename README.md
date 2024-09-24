@@ -31,7 +31,7 @@ One vectorial DB (Milvus)
 
 Data Schema in analytical DB:
 
-```Javascript
+```JSON
 {
   "title": "String",
   "brand": "String",
