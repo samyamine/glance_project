@@ -80,20 +80,10 @@ def retrieve_item_data(driver, url):
 
         # Get brand description
 
-        # Get materials
-        # Get instructions
+        # FIXME: Get materials
+        # FIXME: Get instructions
         # Get url
-        # Get variants (color, sizes, available, pictures)
-
-        title_colors = re.split(r'\s*-\s*', title)[-1]
-        item_colors = re.split(r'\s*/\s*|\s*-\s*|\s+et\s+', title_colors)
-        colors.update(item_colors)
-
-        # Get category
-        details_button = file_driver.find_element(By.XPATH,'//div[@id="productDescription"]//ul//li[contains(@class, "accordion-module_item__2SdMy")]/div/h2/button')
-        details_button.click()
-        category = file_driver.find_element(By.XPATH, '//div[@id="productDescriptionDetails"]/div/div/a').text
-        categories.add(category)
+        # FIXME: Get variants (color, sizes, available, pictures)
     except Exception as e:
         raise Exception(f"Error with the following url: {url} ", e)
 
@@ -148,6 +138,7 @@ if __name__ == "__main__":
         database = client.get_database("glance_items")
         all_collection = database.get_collection("all")
 
+        # FIXME: Multiprocessing & error management
         for path in paths:
             file = open(path, "r")
             lines = file.readlines()
