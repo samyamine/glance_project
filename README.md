@@ -37,7 +37,9 @@ Data Schema in analytical DB:
   "brand": "String",
   "price": "Number",
   "category": "String",
-  "materials": "List[String]"
+  "materials": "List[String]",
+  "description": "String",
+  "instructions": "String",
   "variants": [
     {
       "color": "String",
