@@ -25,3 +25,25 @@ Exemple de page d'article:
 - Tailles
 - Matières
 - Catégorie d'article (pull, t-shirt, chaussure, pantalon, lunettes, chapeau, etc...)
+
+One analytical DB (MongoDB)
+One vectorial DB (Milvus)
+
+Data Schema in analytical DB:
+
+```Javascript
+{
+  "title": "String",
+  "brand": "String",
+  "price": "Number",
+  "category": "String",
+  "materials": "List[String]"
+  "variants": [
+    {
+      "color": "String",
+      "sizes": "List[String]",
+      "available": "Boolean"
+    }
+  ]
+}
+```
