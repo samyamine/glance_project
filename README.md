@@ -31,8 +31,10 @@ One vectorial DB (Milvus)
 
 Data Schema in analytical DB:
 
+Samy (old)
 ```JSON
 {
+  "_id": "UUID",
   "title": "String",
   "brand": "String",
   "price": "Number",
@@ -40,15 +42,37 @@ Data Schema in analytical DB:
   "materials": "List[String]",
   "description": "String",
   "instructions": "String",
-  "url": "String",
   "variants": [
     {
       "color": "String",
       "sizes": "List[String]",
       "pictures": "List[String]",
-      "available": "Boolean"
+      "available": "Boolean",
+      "url": "String"
     }
   ]
+}
+```
+
+Ouiam (Won) THE BEST
+```JSON
+{
+  "_id": "UUID",
+  "productID": "UUID",
+  "title": "String",
+  "brand": "String",
+  "price": "Number",
+  "category": "String",
+  "materials": "List[String]",
+  "product_description": "String",
+  "brand_description": "String",
+  "instructions": "String",
+  "url": "String",
+  "color": "String",
+  "sizes": "List[String]",
+  "pictures": "List[String]",
+  "model_data": "String",
+  "available": "Boolean"
 }
 ```
 
