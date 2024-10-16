@@ -1,9 +1,31 @@
+import multiprocessing
 import re
+import time
+import uuid
 from pymongo import MongoClient
 from selenium import webdriver
+from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
+
+def divide_array(arr, x):
+    res = []
+    start = 0
+
+    subarray_length = len(arr) // x
+    remainder = len(arr) % x
+
+    for i in range(x):
+        end = start + subarray_length
+        if i < remainder:
+            end += 1
+
+        res.append(arr[start:end])
+        start = end
+
+    return res
 
 
 def init_driver():
@@ -23,6 +45,17 @@ def init_driver():
     return driver
 
 
+def generate_uuid():
+    product_id = str(uuid.uuid4())
+    results = all_collection.find({"productID": product_id}).to_list()
+
+    while len(results) > 0:
+        product_id = str(uuid.uuid4())
+        results = all_collection.find({"productID": product_id}).to_list()
+
+    return product_id
+
+
 def check_mix_and_match(driver):
     res = []
 
@@ -36,39 +69,61 @@ def check_mix_and_match(driver):
 
 
 def retrieve_item_data(driver, url):
-    # FIXME: Generate UUID
+    product_id = generate_uuid()
 
     color_list_xpath = '//div[@id="pdp-react-critical-app"]/span[@class="OuZsv"]/div[2]//ul[@class="w51hY"]//a'
     color_selector_class = "w51hY"
     color_selector = driver.find_elements(By.CLASS_NAME, color_selector_class)
 
-    variants = [retrieve_variant_data(driver, url, None)]  # FIXME: Change None to real ID
+    variants = []
 
-    # If there is other variants for this product
+    # Check if out of stock
+    h3 = driver.find_elements(By.XPATH, '//div[@class="layout-aside"]//h3[@id="jwe_q"]')
+    if len(h3) == 0 or h3[0].text != "ÉPUISÉ":
+        variants.append(retrieve_variant_data(driver, url, product_id))
+
+    # If there are other variants for this product
     if len(color_selector) > 0:
         links = driver.find_elements(By.XPATH, color_list_xpath)
         variants_urls = [l.get_attribute("href") for l in filter(lambda x: x.get_attribute("href") is not None, links)]
 
         for variant_url in variants_urls:
-            variants.append(retrieve_variant_data(driver, variant_url, None))  # FIXME: Change None to real ID
+            # print(variant_url)
+            driver.get(variant_url)
+
+            h3 = driver.find_elements(By.XPATH, '//div[@class="layout-aside"]//h3[@id="jwe_q"]')
+            if len(h3) == 0 or h3[0].text != "ÉPUISÉ":
+                variants.append(retrieve_variant_data(driver, url, product_id))
 
     return variants
 
 
 def retrieve_variant_data(driver, url, product_id):
-    res = []
+    print(url)
 
-    details_button_xpath = '//div[@id="productDescription"]//ul//li[contains(@class, "accordion-module_item__2SdMy")]/div/h2/button'
-    brand_button_xpath = '//div[@id="productDescription"]//ul//li[contains(@class, "accordion-module_item__2SdMy")][2]/div/h2/button'
-    model_information_button_xpath = '//div[@id="productDescription"]//ul//li[contains(@class, "accordion-module_item__2SdMy")][3]/div/h2/button'
-    instructions_button_xpath = '//div[@id="productDescription"]//ul//li[contains(@class, "accordion-module_item__2SdMy")][4]/div/h2/button'
-    materials_button_xpath = '//div[@id="productDescription"]//ul//li[contains(@class, "accordion-module_item__2SdMy")][5]/div/h2/button'
+    res = []
+    title = None
+    brand = None
+    price = None
+    category = None
+    materials = None
+    product_description = None
+    brand_description = None
+    instructions = None
+    color = None
+    sizes = None
+    pictures = None
+    model_data = None
+
+    product_description_xpath = '//div[@id="productDescription"]//ul//li[contains(@class, "accordion-module_item__2SdMy")]/div/h2/button'
     size_selector_xpath = '//div[@id="pdp-react-critical-app"]/span[@class="OuZsv"]/div[3]/div[@class="C09ug"]/select[@id="variantSelector"]/option[position() > 1]'
     pictures_xpath = '//ul[@class="thumbnails"]/li/button/img'
 
     category_xpath = '//div[@id="productDescriptionDetails"]/div/div/a'
+    category_xpath2 = '//div[@id="productDescriptionDetails"]/div/div'
     brand_xpath = '//div[@id="productDescriptionDetails"]/div/div/a[2]'
-    product_description_xpath = '//div[@id="productDescriptionDetails"]/div/div/ul/li'
+    brand_xpath2 = '//div[@id="productDescriptionDetails"]/div/div'
+    simple_description_xpath = '//div[@id="productDescriptionDetails"]/div/div/ul/li'
     brand_description_xpath = '//div[@id="productDescriptionBrand"]/div/div'
     model_information_xpath = '//div[@id="productDescriptionSizeAndFit"]/div/div'
     instructions_xpath = '//div[@id="productDescriptionCareInfo"]/div/div'
@@ -77,7 +132,7 @@ def retrieve_variant_data(driver, url, product_id):
     try:
         # ------- Get title ------- #
         head_text = driver.find_elements(By.TAG_NAME, "h1")[0].text
-        title = '-'.join(head_text.split('-')[:-1])  # We get everything except the color (located at the last position)
+        title = ' - '.join(head_text.split(' - ')[:-1])  # We get everything except the color (located at the last position)
 
         # ------- Get color ------- #
         color = head_text.split(' - ')[-1]
@@ -91,52 +146,6 @@ def retrieve_variant_data(driver, url, product_id):
             price_tag = driver.find_element(By.CLASS_NAME, "MwTOW")
 
         price = re.findall(r'\d+,\d+', price_tag.text)[0]
-
-        # ------- Get brand ------- #
-        details_button = driver.find_element(By.XPATH, details_button_xpath)
-        details_button.click()
-
-        brand = driver.find_element(By.XPATH, brand_xpath)
-
-        # ------- Get category ------- #
-        category = driver.find_element(By.XPATH, category_xpath)
-
-        # ------- Get product description ------- #
-        description_tags = driver.find_elements(By.XPATH, product_description_xpath)
-        product_description = '\n'.join([tag.get_attribute('innerHTML') for tag in description_tags])
-
-        # ------- Get brand description ------- #
-        brand_button = driver.find_element(By.XPATH, brand_button_xpath)
-        brand_button.click()
-
-        brand_description_tag = driver.find_element(By.XPATH, brand_description_xpath).get_attribute("innerHTML")
-
-        # Removing nested HTML while keeping text
-        brand_description = re.sub(r'<a\s+href="[^"]*"><strong>(.*?)<\/strong><\/a>', r'\1', brand_description_tag)
-
-        # ------- Get model data ------- #
-        model_information_button = driver.find_element(By.XPATH, model_information_button_xpath)
-        model_information_button.click()
-
-        model_information_tag = driver.find_element(By.XPATH, model_information_xpath).get_attribute("innerHTML")
-
-        # Replacing '<br>' with '\n'
-        model_data = re.sub(r'<br>', '\n', model_information_tag)
-
-        # ------- Get instructions ------- #
-        instructions_button = driver.find_element(By.XPATH, instructions_button_xpath)
-        instructions_button.click()
-
-        instructions = driver.find_element(By.XPATH, instructions_xpath).text
-
-        # ------- Get materials ------- #
-        materials_button = driver.find_element(By.XPATH, materials_button_xpath)
-        materials_button.click()
-
-        materials_tag = driver.find_element(By.XPATH, materials_xpath)
-
-        # Replacing '<br>' with '\n'
-        materials = re.sub(r'<br>', '\n', materials_tag)
 
         # ------- Get sizes (size and availability) ------- #
         size_options = driver.find_elements(By.XPATH, size_selector_xpath)
@@ -153,6 +162,92 @@ def retrieve_variant_data(driver, url, product_id):
         # ------- Get pictures------- #
         picture_urls = driver.find_elements(By.XPATH, pictures_xpath)
         pictures = [p.get_attribute("src").split('?')[0] for p in picture_urls]
+
+        # ------- Get all accordion categories------- #
+        accordion_categories = [x.text for x in driver.find_elements(By.XPATH, product_description_xpath)]
+
+        for i in range(len(accordion_categories)):
+            c = accordion_categories[i]
+            button_xpath = f'//div[@id="productDescription"]//ul//li[contains(@class, "accordion-module_item__2SdMy")][{i+1}]/div/h2/button'
+
+            if c == "Détail des produits":
+                # ------- Get brand ------- #
+                details_button = driver.find_element(By.XPATH, button_xpath)
+                details_button.click()
+
+                # Le nom de la marque peut ne pas être un lien
+                b = driver.find_elements(By.XPATH, brand_xpath)
+                if len(b) > 0:
+                    # brand = driver.find_element(By.XPATH, brand_xpath).text
+                    # Removing nested HTML while keeping text
+                    brand = driver.find_element(By.XPATH, brand_xpath).get_attribute('innerHTML')
+                    # brand = re.sub(r'<strong>(.*?)<\/strong>', r'\1', brand)
+                    brand = re.sub(r'<.*?>', '', brand)
+                    brand = re.sub(r'&amp;', r'&', brand)
+                    print("BRAND 1")
+                else:
+                    # brand = driver.find_element(By.XPATH, brand_xpath2).text.split(" par ")[1]
+                    brand = driver.find_element(By.XPATH, brand_xpath2).text.split(" par ")[1]
+                    brand = brand.split('\n')[0]
+                    print("BRAND 2")
+                print(brand)
+
+                # ------- Get category ------- #
+                # Le nom de la catégorie peut ne pas être un lien
+                b = driver.find_elements(By.XPATH, category_xpath)
+                if len(b) > 0:
+                    # category = driver.find_element(By.XPATH, category_xpath).text
+                    # Removing nested HTML while keeping text
+                    category = driver.find_element(By.XPATH, category_xpath).get_attribute('innerHTML')
+                    category = re.sub(r'<strong>(.*?)<\/strong>', r'\1', category)
+                    category = re.sub(r'&amp;', r'&', category)
+                    print("CATEGORY 1")
+                else:
+                    # category = driver.find_element(By.XPATH, category_xpath2).text.split(" par ")[0]
+                    category = driver.find_element(By.XPATH, category_xpath2).text.split(" par ")[0]
+                    print("CATEGORY 2")
+                print(category)
+
+                # ------- Get product description ------- #
+                description_tags = driver.find_elements(By.XPATH, simple_description_xpath)
+                product_description = '\n'.join([tag.get_attribute('innerHTML') for tag in description_tags])
+            elif c == "Marque":
+                # ------- Get brand description ------- #
+                brand_button = driver.find_element(By.XPATH, button_xpath)
+                brand_button.click()
+
+                brand_description_tag = driver.find_element(By.XPATH, brand_description_xpath).get_attribute("innerHTML")
+
+                # Removing nested HTML while keeping text
+                brand_description = re.sub(r'<a\s+href="[^"]*"><strong>(.*?)<\/strong><\/a>', r'\1', brand_description_tag)
+            elif c == "Taille et coupe":
+                # ------- Get model data ------- #
+                model_information_button = driver.find_element(By.XPATH, button_xpath)
+                model_information_button.click()
+
+                model_information_tag = driver.find_element(By.XPATH, model_information_xpath).get_attribute("innerHTML")
+
+                # Replacing '<br>' with '\n'
+                model_data = re.sub(r'<br>', '\n', model_information_tag)
+            elif c == "Entretien":
+                # ------- Get instructions ------- #
+                instructions_button = driver.find_element(By.XPATH, button_xpath)
+                instructions_button.click()
+
+                instructions = driver.find_element(By.XPATH, instructions_xpath).get_attribute('innerHTML')
+            elif c == "À propos de moi":
+                # ------- Get materials ------- #
+                materials_button = driver.find_element(By.XPATH, button_xpath)
+                materials_button.click()
+
+                materials_tag = driver.find_element(By.XPATH, materials_xpath).get_attribute("innerHTML")
+                time.sleep(0.2)
+
+                # Replacing '<br>' with '\n'
+                materials = re.sub(r'<br>', '\n', materials_tag)
+            else:
+                print("UNKNOWN ACCORDION CATEGORY:", c)
+            time.sleep(0.2)
 
         return {
             "productID": product_id,
@@ -172,17 +267,23 @@ def retrieve_variant_data(driver, url, product_id):
             "available": True
         }
     except Exception as e:
-        raise Exception(f"Error with the following url: {url} ", e)
+        with open("errors_men.txt", 'a') as f:
+            print("error with url:", url)
+            f.write(url + '\n')
+            f.write(str(Exception(e)) + '\n')
+            print(str(Exception(e)))
 
 
 def store_items(data, collection):
-    try:
-        # FORMAT
-        # items = [
-        #     {"<field name>": "<value>", ...},
-        #     {"<field name>": "<value>", ...}
-        # ]
+    # FIXME: Filter None values (urls which generated exceptions)
+    data = list(filter(lambda x: x is not None, data))
+    # filtered_data = list(filter(lambda x: isinstance(x, dict), data))
 
+    try:
+        # print(filtered_data)
+        print(data)
+
+        # result = collection.insert_many(filtered_data)
         result = collection.insert_many(data)
 
         print(result.acknowledged)
@@ -195,6 +296,7 @@ def process_items(urls, collection):
     driver = init_driver()
 
     for url in urls:
+        # print(url)
         # Go to page
         driver.get(url)
 
@@ -208,16 +310,20 @@ def process_items(urls, collection):
         # ------------------------------------------- #
 
         item_data = retrieve_item_data(driver, url)
-        data.append(item_data)
 
+        for item in item_data:
+            data.append(item)
+
+    driver.quit()
     store_items(data, collection)
 
 
+divs = 6
+paths = ["../../backup/men.txt", "../../backup/unisexe.txt", "../../backup/women.txt"]
+client = MongoClient()
+
 if __name__ == "__main__":
     # uri = "<connection string URI>"
-    paths = ["../../backup/men.txt", "../../backup/unisexe.txt", "../../backup/women.txt"]
-    client = MongoClient()
-
     try:
         dbs = client.list_database_names()
         print(dbs)
@@ -226,14 +332,16 @@ if __name__ == "__main__":
         all_collection = database.get_collection("all")
 
         # FIXME: Multiprocessing & error management
-        for path in paths:
-            file = open(path, "r")
-            lines = file.readlines()
-            file.close()
+        # for path in paths:
+        file = open(paths[0], "r")
+        lines = file.readlines()
+        file.close()
 
-            process_items(lines, all_collection)
+        # process_items(lines[:1000], all_collection)
+        process_items(lines[:10], all_collection)
 
         client.close()
 
     except Exception as e:
+        client.close()
         raise Exception("Unable to find the document due to the following error: ", e)
