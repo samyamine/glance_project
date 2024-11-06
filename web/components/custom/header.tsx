@@ -29,7 +29,8 @@ export default function Header() {
                 </ul>
             </nav>
 
-            <Button className={`px-8 py-6 text-lg shadow-none rounded-full bg-black`}>
+            <Button className={`px-8 py-6 text-lg shadow-none rounded-full`}>
+            {/*<Button className={`px-8 py-6 text-lg shadow-none rounded-full bg-black`}>*/}
                 Join waitlist
             </Button>
         </div>

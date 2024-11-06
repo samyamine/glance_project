@@ -73,9 +73,9 @@ const ttHovesProTrial = localFont({
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="en">
-            <body className={`${ttHovesProTrial.variable}`}>
+            <body className={ttHovesProTrial.className}>
                 <Header />
-                <div className={`px-24`}>
+                <div className={`px-24 mb-40`}>
                     {children}
                 </div>
                 <Footer />

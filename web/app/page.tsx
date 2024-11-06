@@ -1,5 +1,6 @@
 import {Button} from "@/components/ui/button";
 import {Input} from "@/components/ui/input";
+import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion";
 
 export default function Home() {
     return (
@@ -31,7 +32,7 @@ export default function Home() {
                     <div className={`w-3/4 max-w-[700px] flex gap-2`}>
                         <Input type={`email`} placeholder={`Email`} className={`h-12 border-gray-200 shadow-none`} />
 
-                        <Button className={`px-8 py-6 text-lg shadow-none rounded-lg bg-black`}>
+                        <Button className={`px-8 py-6 text-lg shadow-none rounded-lg`}>
                             Join waitlist
                         </Button>
                     </div>
@@ -49,7 +50,7 @@ export default function Home() {
             {/*  Features: Technical specs of what this is  */}
             {/*  Benefits: What can these features actually do for me ? (take Tesla website as an example)  */}
             <section className={`mt-20`}>
-                <h2>
+                <h2 className={`mb-5 text-center text-3xl font-bold`}>
                     How does Glance work ?
                 </h2>
 
@@ -101,7 +102,55 @@ export default function Home() {
 
 
             {/*  FIXME: FAQ  */}
+            <section className={`mt-20`}>
+                <h2 className={`mb-10 text-center text-3xl font-bold`}>
+                    Frequently Asked Questions
+                </h2>
+
+                <div className={`w-1/2 max-w-[700px] px-3 rounded-lg bg-gray-100 relative left-1/2 -translate-x-1/2 border-[1px] border-gray-200`}>
+                    <Accordion type="single" collapsible>
+                        <AccordionItem value="item-1">
+                            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                            <AccordionContent>
+                                Yes. It adheres to the WAI-ARIA design pattern.
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-2">
+                            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                            <AccordionContent>
+                                Yes. It adheres to the WAI-ARIA design pattern.
+                            </AccordionContent>
+                        </AccordionItem>
+                        <AccordionItem value="item-3" className={`border-none`}>
+                            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                            <AccordionContent>
+                                Yes. It adheres to the WAI-ARIA design pattern.
+                            </AccordionContent>
+                        </AccordionItem>
+                    </Accordion>
+                </div>
+            </section>
+
             {/*  FIXME: Last Call to Action  */}
+            <section className={`mt-40 w-full h-72 relative`}>
+                <div className={`w-72 h-72 absolute left-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-out`}></div>
+                <div className={`w-72 h-72 absolute top-10 left-[40%] bg-main mix-blend-multiply filter blur-2xl rounded-full animate-blur-in delay-1000`}></div>
+                <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-out delay-300`}></div>
+
+                <div className={`relative top-1/2 -translate-y-1/2`}>
+                    <h2 className={`mb-10 text-center text-3xl font-bold`}>
+                        Join the waitlist !
+                    </h2>
+
+                    <div className={`w-3/4 max-w-[700px] p-2 border-gray-200 border-2 rounded-lg flex gap-2 relative left-1/2 -translate-x-1/2 bg-white`}>
+                        <Input type={`email`} placeholder={`Email`} className={`h-12 border-gray-200 shadow-none`}/>
+
+                        <Button className={`px-8 py-6 text-lg shadow-none rounded-lg`}>
+                            Join waitlist
+                        </Button>
+                    </div>
+                </div>
+            </section>
         </>
     );
 }

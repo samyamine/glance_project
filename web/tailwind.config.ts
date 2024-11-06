@@ -50,19 +50,65 @@ const config: Config = {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			},
-			main: "#FD6E65",
-			second: " #FB887A",
-			black: "#292833",
-			brightGray: "#d0cfd2",
+  			main: '#FD6E65',
+  			second: '#FB887A',
+  			black: '#292833',
+  			brightGray: '#d0cfd2'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
-		fontFamily: {
-			  tt_hoves: ["var(--font-TT-Hoves-Pro-Trial)"],
-		},
+  		fontFamily: {
+  			tt_hoves: ["var(--font-TT-Hoves-Pro-Trial)", "sans-serif"]
+  		},
+  		keyframes: {
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
+  			},
+			'blur-out': {
+				"0%": {
+					transform: "translate(0px, 0px) scale(0.9)",
+				},
+				"50%": {
+					transform: "translate(-40px, 50px) scale(1.2)",
+				},
+				"100%": {
+					transform: "translate(0px, 0px) scale(0.9)",
+				},
+			},
+			'blur-in': {
+				"0%": {
+					transform: "translate(0px, 0px) scale(0.9)",
+				},
+				"50%": {
+					transform: "translate(40px, -30px) scale(1.2)",
+				},
+				"100%": {
+					transform: "translate(0px, 0px) scale(0.9)",
+				},
+			}
+  		},
+  		animation: {
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out',
+			'blur-out': "blur-out 7s infinite",
+			'blur-in': "blur-in 8s infinite",
+  		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
