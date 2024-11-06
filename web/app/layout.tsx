@@ -75,7 +75,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
         <html lang="en">
             <body className={ttHovesProTrial.className}>
                 <Header />
-                <div className={`px-24 mb-40`}>
+                <div className={`px-24`}>
                     {children}
                 </div>
                 <Footer />

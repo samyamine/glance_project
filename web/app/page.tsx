@@ -132,10 +132,10 @@ export default function Home() {
             </section>
 
             {/*  FIXME: Last Call to Action  */}
-            <section className={`mt-40 w-full h-72 relative`}>
-                <div className={`w-72 h-72 absolute left-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-out`}></div>
-                <div className={`w-72 h-72 absolute top-10 left-[40%] bg-main mix-blend-multiply filter blur-2xl rounded-full animate-blur-in delay-1000`}></div>
-                <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-out delay-300`}></div>
+            <section className={`my-60 w-full h-72 relative`}>
+                <div className={`w-72 h-72 absolute left-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-left`}></div>
+                <div className={`w-72 h-72 absolute top-10 left-[40%] bg-main mix-blend-multiply filter blur-2xl rounded-full animate-blur-center`}></div>
+                <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-right`}></div>
 
                 <div className={`relative top-1/2 -translate-y-1/2`}>
                     <h2 className={`mb-10 text-center text-3xl font-bold`}>

@@ -80,34 +80,46 @@ const config: Config = {
   					height: '0'
   				}
   			},
-			'blur-out': {
+			'blur-left': {
 				"0%": {
 					transform: "translate(0px, 0px) scale(0.9)",
 				},
 				"50%": {
-					transform: "translate(-40px, 50px) scale(1.2)",
+					transform: "translate(-30px, 50px) scale(1.2)",
 				},
 				"100%": {
 					transform: "translate(0px, 0px) scale(0.9)",
 				},
 			},
-			'blur-in': {
+			'blur-center': {
+				"0%": {
+					transform: "scale(1.3)",
+				},
+				"50%": {
+					transform: "scale(1.7)",
+				},
+				"100%": {
+					transform: "scale(1.3)",
+				},
+			},
+			'blur-right': {
 				"0%": {
 					transform: "translate(0px, 0px) scale(0.9)",
 				},
 				"50%": {
-					transform: "translate(40px, -30px) scale(1.2)",
+					transform: "translate(30px, -30px) scale(1.2)",
 				},
 				"100%": {
 					transform: "translate(0px, 0px) scale(0.9)",
 				},
-			}
+			},
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out',
-			'blur-out': "blur-out 7s infinite",
-			'blur-in': "blur-in 8s infinite",
+			'blur-left': "blur-left 7s infinite",
+			'blur-center': "blur-center 8s infinite",
+			'blur-right': "blur-right 6s infinite",
   		}
   	}
   },
