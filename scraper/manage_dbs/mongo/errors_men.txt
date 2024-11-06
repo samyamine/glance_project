@@ -1,0 +1,3016 @@
+https://www.asos.com/fr/asos-design/asos-design-polo-decontractee-avec-col-a-revers-en-tissu-eponge-a-motif-fleurs-en-relief-beige/prd/206090770#colourWayId-206090771
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/aveda/aveda-invati-shampooing-exfoliant-avance-formule-riche-50ml-format-voyage/prd/23469820#colourWayId-60485751
+
+list index out of range
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-oversize-coupe-carree-en-tissu-cotele-leger-taupe/prd/206640293#colourWayId-206640294
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-chemise-decontractee-texturee-avec-manches-courtes-et-col-a-revers-bleu-cendre/prd/205914269#colourWayId-205914276
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/topman/topman-t-shirt-ultra-oversize-de-qualite-superieure-avec-imprime-coquelicots-jaunes-devant-et-au-dos-blanc/prd/206536163#colourWayId-206536166
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-oversize-a-imprime-palm-paradise-au-dos-bleu-marine/prd/206682054#colourWayId-206682055
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/vans/vans-crazy-eddy-t-shirt-a-imprime-tete-de-mort-au-dos-noir/prd/206730660#colourWayId-206730662
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-chemise-decontractee-transparente-gris-clair/prd/206017491#colourWayId-206017492
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-lot-de-2t-shirts-moulants-coteles-rose-et-blanc/prd/206375970#colourWayId-206375971
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-4505/asos-4505-short-de-course-2-en-1-noir/prd/205670298#colourWayId-205670299
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/mac/mac-crayon-contour-des-levres-beige-turner/prd/207236027#colourWayId-207236028
+
+list index out of range
+https://www.asos.com/fr/asos-4505/asos-4505-icon-debardeur-de-sport-sans-manches-coupe-moulante-taupe/prd/206759622#colourWayId-206759625
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/icon-brand/icon-brand-earthland-bague-argente/prd/206525779#colourWayId-206525785
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/collusion/collusion-t-shirt-de-football-effet-retreci-a-manches-longues-marron/prd/205723289#colourWayId-205723304
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/adpt/adpt-pantalon-cargo-technique-kaki/prd/203798945#colourWayId-203798949
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/columbia/columbia-ballistic-ridge-manteau-taupe/prd/204771471#colourWayId-204771509
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/dr-denim/dr-denim-clark-jean-slim-delavage-moyen/prd/200461225#colourWayId-200461229
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-chemise-decontractee-en-jean-avec-col-a-revers-gris-delave/prd/205858206#colourWayId-205858213
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/another-influence/another-influence-chemise-de-plage-a-imprime-cartes-postales/prd/205594543#colourWayId-205594586
+
+list index out of range
+https://www.asos.com/fr/pullbear/pullbear-t-shirt-coupe-carree-a-inscription-grey-elegance-gris/prd/206886428#colourWayId-206886436
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/adidas-originals/adidas-originals-campus-00s-baskets-rose/prd/205759744#colourWayId-205759760
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/le-coq-sportif/le-coq-sportif-short-de-lequipe-de-france-a-logo-jeux-olympiques-de-paris-2024-bleu/prd/206518684#colourWayId-206518685
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/polo-ralph-lauren/polo-ralph-lauren-polo-ajuste-en-coton-pima-a-logo-noir/prd/206498060#colourWayId-206498096
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-chemise-oversize-en-velours-cotele-style-annees90-rose/prd/202576167#colourWayId-202576188
+
+list index out of range
+https://www.asos.com/fr/abercrombie-fitch/abercrombie-fitch-t-shirt-decontracte-a-imprime-mclaren-f1-au-dos-blanc/prd/206655625#colourWayId-206655634
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-lot-de-2chemises-de-travail-ajustee-stretch-bleu-marine-et-bleu/prd/200268076#colourWayId-200268086
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/champion/champion-tote-bag-en-nylon-froisse-bleu-clair/prd/206542104#colourWayId-206542105
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/kickers/kickers-motive-t-shirt-noir/prd/203630767#colourWayId-203630773
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-sweat-a-capuche-oversize-avec-imprime-guns-n-roses-noir/prd/202662015#colourWayId-202662018
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/harry-brown/harry-brown-veste-de-costume-bleu-ciel/prd/202294578#colourWayId-202294592
+
+list index out of range
+https://www.asos.com/fr/calvin-klein/calvin-klein-sweat-a-capuche-confortable-avec-logo-embosse-gris-fonce/prd/205103404#colourWayId-205103413
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-debardeur-oversize-coupe-carree-en-maille-avec-liseres-ecru/prd/207243617#colourWayId-207243618
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/carbon-theory/carbon-theory-creme-solaire-fps50-50ml/prd/201529785#colourWayId-201529787
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/puma/puma-maillot-de-football-bleu/prd/206265715#colourWayId-206265717
+
+list index out of range
+https://www.asos.com/fr/jack-jones/jack-jones-intelligence-ollie-pantalon-chino-coupe-classique-beige/prd/206403482#colourWayId-206403483
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/tommy-jeans/tommy-jeans-t-shirt-avec-imprime-dos-style-annees80-noir/prd/206380558#colourWayId-206380580
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-bague-avec-chaine-mobile-en-acier-inoxydable-impermeable-argente/prd/200559507#colourWayId-200559511
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/topman/topman-polo-transparent-en-maille-noir/prd/206597947#colourWayId-206597948
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/jack-jones/jack-jones-pete-jean-fusele-bleu-clair/prd/205761532#colourWayId-205761556
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/bershka/bershka-t-shirt-a-imprime-papillon-au-dos-gris/prd/206902278#colourWayId-206902283
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/ps-paul-smith/ps-paul-smith-short-densemble-en-tissu-eponge-a-rayures-kaki/prd/206726721#colourWayId-206726722
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/topman/topman-chemise-decontractee-a-manches-courtes-en-maille-crochetee-rayee-bleu/prd/205926741#colourWayId-205926752
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/icon-brand/icon-brand-collier-chaine-argente/prd/206525765#colourWayId-206525771
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-crochete-kaki/prd/206045210#colourWayId-206045213
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/mac/mac-powder-kiss-velvet-blur-rouge-a-levres-en-stick-fin-marrakesh-mere/prd/203944392#colourWayId-203944393
+
+list index out of range
+https://www.asos.com/fr/mac/mac-powder-kiss-velvet-blur-rouge-a-levres-en-stick-fin-marrakesh-mere/prd/203944392#colourWayId-203944393
+
+list index out of range
+https://www.asos.com/fr/mac/mac-powder-kiss-velvet-blur-rouge-a-levres-en-stick-fin-marrakesh-mere/prd/203944392#colourWayId-203944393
+
+list index out of range
+https://www.asos.com/fr/mac/mac-powder-kiss-velvet-blur-rouge-a-levres-en-stick-fin-marrakesh-mere/prd/203944392#colourWayId-203944393
+
+list index out of range
+https://www.asos.com/fr/mac/mac-powder-kiss-velvet-blur-rouge-a-levres-en-stick-fin-marrakesh-mere/prd/203944392#colourWayId-203944393
+
+list index out of range
+https://www.asos.com/fr/mac/mac-powder-kiss-velvet-blur-rouge-a-levres-en-stick-fin-marrakesh-mere/prd/203944392#colourWayId-203944393
+
+list index out of range
+https://www.asos.com/fr/mac/mac-powder-kiss-velvet-blur-rouge-a-levres-en-stick-fin-marrakesh-mere/prd/203944392#colourWayId-203944393
+
+list index out of range
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-basique-decontracte-bleu-clair/prd/206277467#colourWayId-206277468
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-short-de-bain-court-a-imprime-geometrique-vert/prd/205712393#colourWayId-205712401
+
+Message: element not interactable
+  (Session info: chrome=130.0.6723.69)
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D05639]
+	(No symbol) [0x00007FF620D56EDF]
+	(No symbol) [0x00007FF620D4990E]
+	(No symbol) [0x00007FF620D7BA3A]
+	(No symbol) [0x00007FF620D49246]
+	(No symbol) [0x00007FF620D7BC50]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-debardeur-moulant-taupe/prd/205916225#colourWayId-205916229
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/devils-advocate/devils-advocate-surchemise-a-carreaux-en-imitation-peau-de-mouton/prd/203261627#colourWayId-203261628
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/dickies/dickies-t-shirt-avec-grand-logo-imprime-au-dos-noir/prd/206606098#colourWayId-206606099
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/jack-jones/jack-jones-intelligence-pantalon-cargo-skinny-a-taille-avec-cordon-de-serrage-gris-clair/prd/203671279#colourWayId-203671297
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/bershka/bershka-ensemble-gris/grp/207146514#colourWayId-206771380&productId-206771367
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/brave-soul/brave-soul-polo-en-maille-texturee-a-rayures-bleu-marine/prd/205564382#colourWayId-205564385
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-densemble-decontracte-a-rayures-texturees-beige/prd/206269109#colourWayId-206269118
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/only-sons/only-sons-polo-bleu-clair-delave/prd/204440548#colourWayId-204440550
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/noak/noak-costume-ajuste-en-tweed-britannique-taupe/grp/113559#colourWayId-202717765&productId-202717764
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/lacoste/lacoste-sweat-unisexe-a-logo-beige-delave/prd/206990072#colourWayId-206990120
+
+list index out of range
+https://www.asos.com/fr/reclaimed-vintage/reclaimed-vintage-chemise-western-nouee-devant-avec-broderies-style-nappe-blanc/prd/206245770#colourWayId-206245771
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/jack-jones/jack-jones-t-shirt-oversize-avec-oiseau-et-inscription-en-japonais-au-dos-blanc/prd/206666355#colourWayId-206666356
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/superdry/superdry-polo-classique-en-pique-rose-clair-chine/prd/206838658#colourWayId-206838659
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/superdry/superdry-chemise-hawaienne-blanc-casse/prd/206219122#colourWayId-206219130
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-clous-doreilles-goutte-deau-dore/prd/206332805#colourWayId-206332806
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/the-north-face/the-north-face-tka-glacier-polaire-zippee-jaune-et-noir/prd/203245197#colourWayId-203245199
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/levis/exclusivite-levis-x-asos-t-shirt-avec-logo-retro-sur-la-poitrine-bleu-marine/prd/206367489#colourWayId-206367493
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/topman/topman-costume-de-mariage-coupe-ajustee-a-chevrons-gris/grp/204926331#colourWayId-203058257&productId-203058256
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/calvin-klein/calvin-klein-plus-lot-de-3boxers-en-coton-stretch-a-taille-coloree-noir/prd/205815083#colourWayId-205815085
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/classics-77/classics-77-bague-a-motif-cachemire-dore/prd/205541773#colourWayId-205541775
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-wedding-pantalon-de-costume-ajuste-a-chevrons-en-laine-melangee-anthracite/prd/203159923#colourWayId-203159962
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-chemise-elegante-en-lin-gris-clair/prd/205777916#colourWayId-205777917
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-jean-skinny-bleu-fonce-delave-teinte/prd/206459279#colourWayId-206459280
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/collusion/collusion-pantalon-ajuste-coupe-ample-decontractee-olive/prd/205665418#colourWayId-205665419
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-bague-pour-auriculaire-en-plaque-or-14-carats/prd/200394358#colourWayId-200394376
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-chemise-decontractee-sans-manches-a-volants-blanc/prd/206038039#colourWayId-206038084
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-a-rayures-marron/prd/205879461#colourWayId-205879474
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-ensemble-de-sous-vetements-avec-slip-et-debardeur-coteles-creme/prd/206628909#colourWayId-206628911
+
+list index out of range
+https://www.asos.com/fr/new-look/new-look-veste-de-costume-decontractee-bleu-fonce/prd/204553932#colourWayId-204553933
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-pull-ras-de-cou-en-maille-torsadee-coupe-decontractee-et-ample-fauve/prd/206323057#colourWayId-206323059
+
+Message: element click intercepted: Element <button class="accordion-item-module_titleBtn__1AJMd" aria-expanded="false" aria-controls="productDescriptionCareInfo">...</button> is not clickable at point (811, 744). Other element would receive the click: <div class="accordion-item-module_content__2cDKX">...</div>
+  (Session info: chrome=130.0.6723.69)
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D5D6CE]
+	(No symbol) [0x00007FF620D5B16C]
+	(No symbol) [0x00007FF620D58628]
+	(No symbol) [0x00007FF620D5785D]
+	(No symbol) [0x00007FF620D4990E]
+	(No symbol) [0x00007FF620D7BA3A]
+	(No symbol) [0x00007FF620D49246]
+	(No symbol) [0x00007FF620D7BC50]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-pantalon-chino-droit-fauve-delave/prd/205121686#colourWayId-205121687
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/river-island/river-island-baskets-rayees-blanc/prd/206477618#colourWayId-206477619
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/harry-brown/harry-brown-polo-en-maille-a-manches-longues-ecru/prd/203072274#colourWayId-203072282
+
+list index out of range
+https://www.asos.com/fr/adpt/adpt-t-shirt-oversize-avec-imprime-fleurs-au-dos-marron/prd/206855939#colourWayId-206855940
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-blazer-double-boutonnage-ajuste-a-encolure-basse-et-carreaux-ecossais-rouge/prd/205689422#colourWayId-205689423
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/doll-beauty/doll-beauty-pretty-fly-powder-blush-poudre-beach-please/prd/206527984#colourWayId-206527985
+
+list index out of range
+https://www.asos.com/fr/estee-lauder/estee-lauder-pure-color-envy-gommage-levres-au-sucre/prd/12392467#colourWayId-16391614
+
+list index out of range
+https://www.asos.com/fr/asos-design/asos-design-bomber-oversize-leger-noir/prd/201561108#colourWayId-201561110
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/napapijri/napapijri-salis-t-shirt-a-petit-logo-kaki/prd/205732986#colourWayId-205732993
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/river-island/river-island-lunettes-de-soleil-avec-barre-superieure-noir/prd/206267353#colourWayId-206267354
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-pantalon-chino-habille-coupe-slim-bleu-petrole/prd/206177821#colourWayId-206177833
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-ras-de-cou-oversize-en-tissu-epais-cotele-creme/prd/207004442#colourWayId-207004444
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/the-beauty-crop/the-beauty-crop-soin-apaisant-aux-peptides-pour-les-levres-cherry/prd/206716339#colourWayId-206716341
+
+list index out of range
+https://www.asos.com/fr/the-beauty-crop/the-beauty-crop-soin-apaisant-aux-peptides-pour-les-levres-cherry/prd/206716339#colourWayId-206716341
+
+list index out of range
+https://www.asos.com/fr/asos-design/asos-design-jean-dechire-effet-seconde-peau-en-tissu-power-stretch-noir-delave/prd/205195468#colourWayId-205195469
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/weleda/weleda-skin-food-creme-de-jour-nourrissante-40ml/prd/204907351#colourWayId-204907353
+
+list index out of range
+https://www.asos.com/fr/asos-design/asos-design-chemise-oxford-coupe-slim-vert-sauge/prd/204205739#colourWayId-204205741
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/new-look/new-look-t-shirt-oversize-a-rayures-vert/prd/205929703#colourWayId-205929717
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/columbia/columbia-winter-pass-polaire-a-fermeture-eclair-avec-imprime-wolfscape-craie/prd/202923088#colourWayId-202923093
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-decontracte-a-col-boutonne-noir/prd/206271618#colourWayId-206271619
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/truffle-collection/truffle-collection-baskets-faciles-a-enfiler-en-toile-bleu-jean/prd/205622482#colourWayId-205622487
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-sweat-a-capuche-oversize-sans-manches-avec-broderie-sur-la-poitrine-en-tissu-eponge-ecru/prd/206976427#colourWayId-206976428
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-casquette-ajustee-avec-broderies-noir/prd/206553727#colourWayId-206553728
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/polo-ralph-lauren/polo-ralph-lauren-polo-classique-oversize-en-coton-et-lin-avec-poche-vert-fonce/prd/206497689#colourWayId-206497690
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-decontracte-texture-a-col-en-v-vert-fonce/prd/206269306#colourWayId-206269307
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-jean-slim-delavage-fonce-teinte/prd/206459214#colourWayId-206459215
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-polo-avec-rayures-vert-et-blanc/prd/205879410#colourWayId-205879422
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/bershka/bershka-t-shirt-en-jacquard-marron/prd/207104385#colourWayId-207104386
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/ben-sherman/ben-sherman-veste-de-costume-a-double-boutonnage-bleu-clair/prd/205813835#colourWayId-205813836
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/south-beach/south-beach-chemise-densemble-a-imprime-tie-dye-vert-sauge/prd/204451533#colourWayId-204451534
+
+list index out of range
+https://www.asos.com/fr/polo-ralph-lauren/polo-ralph-lauren-big-tall-t-shirt-a-logo-emblematique-vert-clair/prd/206497568#colourWayId-206497583
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-gilet-en-maille-cotelee-effet-plaque-marron/prd/206334581#colourWayId-206334589
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-t-shirt-oversize-coupe-carree-en-tissu-epais-240g-m-avec-imprime-a-lavant-blanc/prd/207133535#colourWayId-207133536
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/new-balance/new-balance-fuelcell-venym-baskets-de-course-vert/prd/206435513#colourWayId-206435518
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/g-star/g-star-jean-ample-style-charpentier-avec-details-en-relief-beige-delave/prd/206406761#colourWayId-206406762
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/hummel/hummel-lead-short-noir/prd/204683176#colourWayId-204683197
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-polo-moulant-en-maille-a-larges-cotes-gingembre-delave/prd/206258537#colourWayId-206258546
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/levis/levis-authentic-chemise-oxford-a-logo-rayures-et-manches-courtes-multicolore-blanc/prd/206124547#colourWayId-206124556
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/jack-jones/jack-jones-t-shirt-oversize-de-qualite-superieure-avec-poche-beige/prd/206247071#colourWayId-206247073
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-jean-skinny-delavage-bleu-clair-teinte/prd/206449912#colourWayId-206449913
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/topman/topman-t-shirt-decontracte-et-texture-a-manches-courtes-noir/prd/206530683#colourWayId-206530684
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/french-connection/french-connection-chemise-en-flanelle-a-carreaux-vichy-et-manches-longues-vert-fonce/prd/203361708#colourWayId-203361729
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/mac/mac-powder-kiss-velvet-blur-rouge-a-levres-en-stick-fin-devoted-to-chili/prd/203944369#colourWayId-203944372
+
+list index out of range
+https://www.asos.com/fr/another-influence/another-influence-t-shirt-oversize-epais-noir/prd/205552103#colourWayId-205552104
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/harry-brown/harry-brown-pantalon-de-costume-de-mariage-en-laine-melangee-bleu-clair/prd/202294452#colourWayId-202294459
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/asos-design/asos-design-gilet-de-costume-ajuste-micro-texture-gris/prd/204574469#colourWayId-204574470
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/another-influence/another-influence-t-shirt-oversize-epais-bleu-marine/prd/205551897#colourWayId-205551898
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/calvin-klein-jeans/calvin-klein-jeans-jean-droit-style-annees90-delavage-fonce/prd/205843936#colourWayId-205843937
+
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+
+https://www.asos.com/fr/collusion/collusion-t-shirt-oversize-a-imprime-graphique-effet-use-violet-delave/prd/206487453
+Message: no such element: Unable to locate element: {"method":"css selector","selector":".MwTOW"}
+  (Session info: chrome=130.0.6723.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF620F03AB5+28005]
+	(No symbol) [0x00007FF620E683B0]
+	(No symbol) [0x00007FF620D0580A]
+	(No symbol) [0x00007FF620D55A3E]
+	(No symbol) [0x00007FF620D55D2C]
+	(No symbol) [0x00007FF620D9EA97]
+	(No symbol) [0x00007FF620D7BA7F]
+	(No symbol) [0x00007FF620D9B8B3]
+	(No symbol) [0x00007FF620D7B7E3]
+	(No symbol) [0x00007FF620D475C8]
+	(No symbol) [0x00007FF620D48731]
+	GetHandleVerifier [0x00007FF6211F643D+3118829]
+	GetHandleVerifier [0x00007FF621246C90+3448640]
+	GetHandleVerifier [0x00007FF62123CF0D+3408317]
+	GetHandleVerifier [0x00007FF620FCA40B+841403]
+	(No symbol) [0x00007FF620E7340F]
+	(No symbol) [0x00007FF620E6F484]
+	(No symbol) [0x00007FF620E6F61D]
+	(No symbol) [0x00007FF620E5EB79]
+	BaseThreadInitThunk [0x00007FF8E88B257D+29]
+	RtlUserThreadStart [0x00007FF8E970AF08+40]
+

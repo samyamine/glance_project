@@ -275,17 +275,12 @@ def retrieve_variant_data(driver, url, product_id):
 
 
 def store_items(data, collection):
-    # FIXME: Filter None values (urls which generated exceptions)
+    # Filter None values (urls which generated exceptions)
     data = list(filter(lambda x: x is not None, data))
-    # filtered_data = list(filter(lambda x: isinstance(x, dict), data))
 
     try:
-        # print(filtered_data)
         print(data)
-
-        # result = collection.insert_many(filtered_data)
         result = collection.insert_many(data)
-
         print(result.acknowledged)
     except Exception as e:
         raise Exception("The following error occurred: ", e)
@@ -296,7 +291,6 @@ def process_items(urls, collection):
     driver = init_driver()
 
     for url in urls:
-        # print(url)
         # Go to page
         driver.get(url)
 
@@ -317,8 +311,10 @@ def process_items(urls, collection):
     driver.quit()
     store_items(data, collection)
 
+    return True
 
-divs = 6
+
+num_divs = 6
 paths = ["../../backup/men.txt", "../../backup/unisexe.txt", "../../backup/women.txt"]
 client = MongoClient()
 
@@ -337,8 +333,8 @@ if __name__ == "__main__":
         lines = file.readlines()
         file.close()
 
-        # process_items(lines[:1000], all_collection)
-        process_items(lines[:10], all_collection)
+        # 1000 Premiers faits !
+        process_items(lines[:1000], all_collection)
 
         client.close()
 
