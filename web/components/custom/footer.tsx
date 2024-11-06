@@ -7,7 +7,7 @@ export default function Footer() {
         <div className={`w-full px-24 py-10 bg-black text-white flex justify-between items-center`}>
             <div>
                 <p className={`text-lg`}>
-                    Made by Samy Amine
+                    Made by Ouiam & Samy
                 </p>
                 <nav className={`mt-3`}>
                     <ul>
