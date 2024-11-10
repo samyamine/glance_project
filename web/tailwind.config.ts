@@ -80,6 +80,22 @@ const config: Config = {
   					height: '0'
   				}
   			},
+			'infinite-scroll-left': {
+				from: {
+					transform: "translateX(0px)",
+				},
+				to: {
+					transform: "translateX(-100%)",
+				}
+			},
+			'infinite-scroll-right': {
+				from: {
+					transform: "translateX(0px)",
+				},
+				to: {
+					transform: "translateX(100%)",
+				}
+			},
 			'blur-left': {
 				"0%": {
 					transform: "translate(0px, 0px) scale(0.9)",
@@ -117,6 +133,8 @@ const config: Config = {
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out',
+			'infinite-scroll-left': "infinite-scroll-left 15s linear infinite",
+			'infinite-scroll-right': "infinite-scroll-right 15s linear infinite",
 			'blur-left': "blur-left 7s infinite",
 			'blur-center': "blur-center 8s infinite",
 			'blur-right': "blur-right 6s infinite",

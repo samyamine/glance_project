@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <div className={`w-full px-24 py-10 flex justify-between items-center`}>
+        <div className={`w-full h-24 px-24 fixed top-0 flex justify-between items-center bg-white z-40`}>
             <Link href={`/`}>
                 <Image src={`/logos/logo_1.svg`} alt={`Glance`} width={180} height={1} />
             </Link>

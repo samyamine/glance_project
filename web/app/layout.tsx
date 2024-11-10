@@ -73,9 +73,9 @@ const ttHovesProTrial = localFont({
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="en">
-            <body className={ttHovesProTrial.className}>
+            <body className={`${ttHovesProTrial.className} text-black`}>
                 <Header />
-                <div className={`px-24`}>
+                <div className={`w-full flex flex-col items-center px-24`}>
                     {children}
                 </div>
                 <Footer />
