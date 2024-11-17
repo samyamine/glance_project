@@ -3,7 +3,7 @@ import {Input} from "@/components/ui/input";
 import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion";
 import Slider from "@/components/custom/slider";
 import {EHorizontalDirection} from "@/app/utils/enums";
-import Image from "next/image";
+import HeroImages from "@/components/custom/heroImages";
 
 export default function Home() {
     return (
@@ -13,7 +13,7 @@ export default function Home() {
                 <div className={`w-2/3 flex flex-col justify-center`}>
                     {/*  What value do I provide ?  */}
                     <h1 className={`max-w-[1000px] font-bold text-5xl`}>
-                        Your Personalized Fashion Shop<br/>
+                        Your Personalized Catalogue<br/>
                         Curated Just for You.
                     </h1>
 
@@ -40,25 +40,7 @@ export default function Home() {
                 </div>
 
                 {/*  FIXME: What does it look like ?  */}
-                <div className={`w-1/3 h-[calc(100vh-96px)] relative flex justify-between items-center gap-5`}>
-                    <div className={`w-1/2 h-full flex flex-col justify-center`}>
-                        <div className={`w-full h-2/5 -translate-y-7 mb-5 relative shadow-lg rounded-lg border-2 border-black overflow-hidden`}>
-                            <Image src={`/clothes/shoes_men_1.webp`} alt={`Top women`} fill={true} objectFit={`cover`}/>
-                        </div>
-                        <div className={`w-full h-2/5 -translate-y-7 relative shadow-lg rounded-lg border-2 border-black overflow-hidden`}>
-                            <Image src={`/clothes/shoes_men_1.webp`} alt={`Top women`} fill={true} objectFit={`cover`} />
-                            <Image src={`/clothes/top_men_3.webp`} alt={`Top women`} fill={true} objectFit={`cover`}/>
-                        </div>
-                    </div>
-                    <div className={`w-1/2 h-full flex flex-col justify-center`}>
-                        <div className={`w-full h-2/5 translate-y-3 mb-5 relative shadow-lg rounded-lg border-2 border-black overflow-hidden`}>
-                            <Image src={`/clothes/top_women_4.webp`} alt={`Top women`} fill={true} objectFit={`cover`} />
-                        </div>
-                        <div className={`w-full h-2/5 translate-y-3 relative shadow-lg rounded-lg border-2 border-black overflow-hidden`}>
-                            <Image src={`/clothes/jeans_women_1.webp`} alt={`Top women`} fill={true} objectFit={`cover`} />
-                        </div>
-                    </div>
-                </div>
+                <HeroImages />
             </section>
 
             {/*  Why should they believe it ? (company logos)  */}

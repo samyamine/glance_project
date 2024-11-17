@@ -7,7 +7,7 @@ export default function Slider({ direction, paths }: { direction: EHorizontalDir
         <ul className={`h-16 flex ${direction === EHorizontalDirection.Left ? "animate-infinite-scroll-left" : "animate-infinite-scroll-right"}`}>
             {paths.map((path, idx) => (
                 <li key={idx} className={`w-48 mx-10 relative`}>
-                    <Image src={path} alt={`image`} objectFit={`contain`} fill={true}
+                    <Image src={path} alt={`image`} style={{ objectFit: 'contain' }} fill={true}
                            className={`max-w-none`}/>
                 </li>
             ))}
