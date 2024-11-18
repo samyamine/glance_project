@@ -162,7 +162,7 @@ export default function Home() {
                     {/*  Discover Original Brands & Unique Creators  */}
                     <div className={`w-full py-10 flex gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5 pt-20`}>
+                        <div className={`w-3/5 pt-16`}>
                             <h3 className={`mb-10 text-3xl font-bold`}>
                                 Discover Original Brands & Unique Creators
                             </h3>
@@ -175,13 +175,13 @@ export default function Home() {
                         </div>
 
                           {/*Illustration  */}
-                        <div className={`w-2/5 h-64 relative bg-orange-200`}></div>
+                        <div className={`w-2/5 h-80 relative bg-orange-200`}></div>
                     </div>
 
                     {/*  Scout, Your Personal Style Assistant  */}
                     <div className={`w-full py-10 flex gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5 pt-10`}>
+                        <div className={`w-3/5 pt-16`}>
                             <h3 className={`mb-10 text-3xl font-bold`}>
                                 Scout, Your Personal Style Assistant
                             </h3>
@@ -195,13 +195,13 @@ export default function Home() {
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-2/5 h-full bg-orange-200`}></div>
+                        <div className={`w-2/5 h-80 bg-orange-200`}></div>
                     </div>
 
                     {/*  Unlimited Choices, Global Reach  */}
                     <div className={`w-full py-10 flex gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5 pt-10`}>
+                        <div className={`w-3/5 pt-16`}>
                             <h3 className={`mb-10 text-3xl font-bold`}>
                                 Unlimited Choices, Global Reach
                             </h3>
@@ -215,13 +215,13 @@ export default function Home() {
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-2/5 h-full bg-orange-200`}>
+                        <div className={`w-2/5 h-80 bg-orange-200`}>
                             {/*Planète avec plein de routes de livraison*/}
                         </div>
                     </div>
 
                     {/*  Fashion in Green  */}
-                    <div className={`w-full pl-10 pr-5 py-5 flex gap-10 bg-green-300 rounded-xl border-2 border-green-950`}>
+                    <div className={`w-full mt-10 pl-10 pr-5 py-5 flex gap-10 bg-green-300 rounded-xl border-2 border-green-950`}>
                         {/*  Benefit description  */}
                         <div className={`w-3/5 pt-10`}>
                             <div className={`mb-5 flex items-center gap-5`}>
@@ -245,7 +245,7 @@ export default function Home() {
                             {/*  Header: Critères éco-responsables  */}
                             <div className={`w-full py-3 mb-3`}>
                                 <p className={`font-bold mb-1`}>
-                                    Eco-Responsible Criteria
+                                    Colorful Standard - Organic Cotton Sweatshirt
                                 </p>
 
                                 <div className={`flex gap-3`}>
