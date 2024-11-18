@@ -4,6 +4,17 @@ import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/co
 import Slider from "@/components/custom/slider";
 import {EHorizontalDirection} from "@/app/utils/enums";
 import HeroImages from "@/components/custom/heroImages";
+import Image from "next/image";
+import {
+    FaCartShopping,
+    FaCow,
+    FaEarthEurope,
+    FaHeart,
+    FaLeaf,
+    FaLocationDot,
+    FaMinus,
+    FaThumbsDown
+} from "react-icons/fa6";
 
 export default function Home() {
     return (
@@ -39,12 +50,12 @@ export default function Home() {
                     </div>
                 </div>
 
-                {/*  FIXME: What does it look like ?  */}
+                {/*  What does it look like ?  */}
                 <HeroImages />
             </section>
 
             {/*  Why should they believe it ? (company logos)  */}
-            <section className={`w-full max-w-[1440px]`}>
+            <section className={`w-full mt-10 mb-20 max-w-[1440px]`}>
                 <div className={`mb-10`}>
                     <Slider direction={EHorizontalDirection.Right} paths={[
                         "/logos/brands/kitri.png",
@@ -73,18 +84,19 @@ export default function Home() {
             {/*  Features: Technical specs of what this is  */}
             {/*  Benefits: What can these features actually do for me ? (take Tesla website as an example)  */}
             <section className={`w-full max-w-[1440px] mt-20`}>
-                <h2 className={`mb-10 text-center text-3xl font-bold`}>
+                <h2 className={`mb-10 text-center text-4xl font-bold`}>
                     How does Glance work ?
                 </h2>
 
-                <div className={`flex flex-col gap-7`}>
-                    <div className={`w-full bg-green-200`}>
+                <div className={`flex flex-col gap-10`}>
+                    {/*  Interactive Curation and Selection  */}
+                    <div className={`w-full py-10 flex gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-2/3 bg-purple-300`}>
-                            <h3 className={`text-xl font-bold`}>
+                        <div className={`w-3/5 pt-16`}>
+                            <h3 className={`mb-10 text-3xl font-bold`}>
                                 Interactive Curation and Selection
                             </h3>
-                            <p>
+                            <p className={`text-lg`}>
                                 Glance learns your style, preferences, and needs through every interaction. Your personal
                                 shop is
                                 refined according to your feedbacks to help you find pieces that truly resonate with your
@@ -93,17 +105,68 @@ export default function Home() {
                             </p>
                         </div>
 
-                        {/*  Illustration  */}
-                        <div className={`w-1/3 h-full bg-orange-200`}></div>
+                        {/* Illustration */}
+                        <div className="relative w-2/5 h-80">
+                            <div className={`absolute top-4 left-16`}>
+                                <div className={`w-24 h-24 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                                    <Image src={`/clothes/top_women_3.webp`} alt={`First box`} fill={true} className={`object-cover`}/>
+                                </div>
+
+                                <div className={`p-2 rounded-full absolute right-0 -translate-y-1/2 translate-x-1/2 bg-red-300`}>
+                                    <FaThumbsDown className={`text-red-950`}/>
+                                </div>
+                            </div>
+
+                            <div className={`absolute top-12 right-16`}>
+                                <div className={`w-20 h-20 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                                    <Image src={`/clothes/shoes_men_3.webp`} alt={`Second box`} fill={true} className={`object-cover`}/>
+                                </div>
+
+                                <div className={`p-2 rounded-full absolute right-0 -translate-y-1/2 translate-x-1/2 bg-green-300`}>
+                                    <FaHeart className={`text-green-950`}/>
+                                </div>
+                            </div>
+
+                            <div className={`absolute bottom-8 right-24`}>
+                                <div className={`w-28 h-28 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                                    <Image src={`/clothes/jeans_women_1.webp`} alt={`Third box`} fill={true} className={`object-cover`}/>
+                                </div>
+
+                                <div className={`p-2 rounded-full absolute right-0 -translate-y-1/2 translate-x-1/2 bg-green-300`}>
+                                    <FaHeart className={`text-green-950`}/>
+                                </div>
+                            </div>
+
+                            <div className={`absolute top-28 left-48`}>
+                                <div className={`w-20 h-20 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                                    <Image src={`/clothes/shoes_men_1.webp`} alt={`Fourth box`} fill={true} className={`object-cover`}/>
+                                </div>
+
+                                <div className={`p-2 rounded-full absolute right-0 -translate-y-1/2 translate-x-1/2 bg-amber-300`}>
+                                    <FaCartShopping className={`text-amber-950`}/>
+                                </div>
+                            </div>
+
+                            <div className={`absolute bottom-4 left-24`}>
+                                <div className={`w-24 h-24 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                                    <Image src={`/clothes/top_women_2.webp`} alt={`Fifth box`} fill={true} className={`object-cover`}/>
+                                </div>
+
+                                <div className={`p-2 rounded-full absolute right-0 -translate-y-1/2 translate-x-1/2 bg-gray-300`}>
+                                    <FaMinus className={`text-gray-950`}/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div className={`w-full bg-green-200`}>
+                    {/*  Discover Original Brands & Unique Creators  */}
+                    <div className={`w-full py-10 flex gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-2/3 bg-purple-300`}>
-                            <h3 className={`text-xl font-bold`}>
+                        <div className={`w-3/5 pt-20`}>
+                            <h3 className={`mb-10 text-3xl font-bold`}>
                                 Discover Original Brands & Unique Creators
                             </h3>
-                            <p>
+                            <p className={`text-lg`}>
                                 Step beyond the mainstream. Glance brings you inspiration by handpicking looks and
                                 original creators you will hardly find anywhere else. Discover new favorites and fresh,
                                 curated
@@ -111,35 +174,38 @@ export default function Home() {
                             </p>
                         </div>
 
-                        {/*  Illustration  */}
-                        <div className={`w-1/3 h-full bg-orange-200`}></div>
+                          {/*Illustration  */}
+                        <div className={`w-2/5 h-64 relative bg-orange-200`}></div>
                     </div>
 
-                    <div className={`w-full bg-green-200`}>
+                    {/*  Scout, Your Personal Style Assistant  */}
+                    <div className={`w-full py-10 flex gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-2/3 bg-purple-300`}>
-                            <h3 className={`text-xl font-bold`}>
+                        <div className={`w-3/5 pt-10`}>
+                            <h3 className={`mb-10 text-3xl font-bold`}>
                                 Scout, Your Personal Style Assistant
                             </h3>
-                            <p>
+                            <p className={`text-lg`}>
                                 Searching for the perfect outfit for a special occasion? Scout is here to help. From
                                 weddings to
-                                milestone moments, this intuitive style assistant finds standout pieces that make you shine.<br/>
+                                milestone moments, this intuitive style assistant finds standout pieces that make you
+                                shine.<br/>
                                 No endless scrolling required.
                             </p>
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-1/3 h-full bg-orange-200`}></div>
+                        <div className={`w-2/5 h-full bg-orange-200`}></div>
                     </div>
 
-                    <div className={`w-full bg-green-200`}>
+                    {/*  Unlimited Choices, Global Reach  */}
+                    <div className={`w-full py-10 flex gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-2/3 bg-purple-300`}>
-                            <h3 className={`text-xl font-bold`}>
+                        <div className={`w-3/5 pt-10`}>
+                            <h3 className={`mb-10 text-3xl font-bold`}>
                                 Unlimited Choices, Global Reach
                             </h3>
-                            <p>
+                            <p className={`text-lg`}>
                                 Glance connects you with diverse inventories from trusted suppliers worldwide, so you’re
                                 never
                                 limited by stock shortages. With global delivery, it’s easy to find and access exactly what
@@ -149,33 +215,104 @@ export default function Home() {
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-1/3 h-full bg-orange-200`}></div>
+                        <div className={`w-2/5 h-full bg-orange-200`}>
+                            {/*Planète avec plein de routes de livraison*/}
+                        </div>
                     </div>
 
-                    <div className={`w-full bg-green-200`}>
+                    {/*  Fashion in Green  */}
+                    <div className={`w-full pl-10 pr-5 py-5 flex gap-10 bg-green-300 rounded-xl border-2 border-green-950`}>
                         {/*  Benefit description  */}
-                        <div className={`w-2/3 bg-purple-300`}>
-                            <h3 className={`text-xl font-bold`}>
-                                Fashion in Green
+                        <div className={`w-3/5 pt-10`}>
+                            <div className={`mb-5 flex items-center gap-5`}>
+                                <div className={`w-16 h-8 p-1 relative rounded-full bg-green-950`}>
+                                    <div className={`w-6 h-6 absolute right-1 rounded-full bg-white`}></div>
+                                </div>
+                            </div>
+
+                            <h3 className={`mb-10 flex items-center gap-4 text-3xl font-bold text-green-950`}>
+                                <FaEarthEurope /> Fashion in Green
                             </h3>
-                            <p>
+                            <p className={`text-lg text-green-950`}>
                                 At Glance, sustainability is part of our mission. Our Green Mode highlights eco-friendly and
                                 responsibly-made products, allowing you to make mindful choices with every purchase. Glance
-                                lets
-                                you track and reduce your footprint, making sustainable shopping easy.
+                                lets you track and reduce your footprint, making sustainable shopping easy.
                             </p>
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-1/3 h-full bg-orange-200`}></div>
+                        <div className={`w-2/5 h-full px-4 py-2 rounded-lg shadow-xl  bg-white`}>
+                            {/*  Header: Critères éco-responsables  */}
+                            <div className={`w-full py-3 mb-3`}>
+                                <p className={`font-bold mb-1`}>
+                                    Eco-Responsible Criteria
+                                </p>
+
+                                <div className={`flex gap-3`}>
+                                    <p className={`flex items-center gap-2 text-sm`}>
+                                        <FaLeaf className={`text-green-800`} />
+                                        100% Eco-Friendly Materials
+                                    </p>
+                                    |
+                                    <p className={`flex items-center gap-2 text-sm`}>
+                                        <FaCow className={`text-green-800`} />
+                                        Vegan
+                                    </p>
+                                    |
+                                    <p className={`flex items-center gap-2 text-sm`}>
+                                        <FaLocationDot className={`text-green-800`} />
+                                        Made in Portugal
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/*  Image, Origine, Labels, Labels  */}
+                            <div className={`pb-3 flex gap-3`}>
+                                {/*  Image  */}
+                                <div className={`w-48 h-48 relative bg-white rounded-lg overflow-hidden`}>
+                                    <Image src={`/clothes/top_men_4.webp`} alt={`Apparel picture`} fill={true} className={`object-cover`}/>
+                                </div>
+
+                                {/*  Origine, Labels, Labels  */}
+                                <div className={`w-full px-5 pb-1 flex flex-col justify-between`}>
+                                    <div>
+                                        <p className={`font-bold mb-1`}>
+                                            Composition
+                                        </p>
+                                        <ul className={`ml-5 list-disc text-sm`}>
+                                            <li>
+                                                100% Organic Cotton
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <p className={`font-bold mb-1`}>
+                                            Labels
+                                        </p>
+                                        <ul className={`ml-5 list-disc text-sm`}>
+                                            <li>
+                                                Standard 100 by OEKO-TEX &reg;
+                                            </li>
+                                            <li>
+                                                Peta
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <p className={`text-xs`}>
+                                        This product was made in a workshop in Portugal that complies with our <span className={`underline cursor-pointer`}>ethical charter</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </section>
 
             {/*  FAQ  */}
-            <section className={`w-full max-w-[1440px] mt-20`}>
-                <h2 className={`mb-10 text-center text-3xl font-bold`}>
+            <section className={`w-full max-w-[1440px] mt-40`}>
+                <h2 className={`mb-20 text-center text-4xl font-bold`}>
                     Frequently Asked Questions
                 </h2>
 
@@ -191,7 +328,7 @@ export default function Home() {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-2">
-                            <AccordionTrigger>How does Glance work ?</AccordionTrigger>
+                            <AccordionTrigger>How does it make recommendations ?</AccordionTrigger>
                             <AccordionContent>
                                 Glance tailors recommendations to your personal style by learning from your interactions
                                 with fashion items. Whether you like, dislike, add to your wishlist, or make a purchase,
@@ -249,7 +386,7 @@ export default function Home() {
                 <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-right`}></div>
 
                 <div className={`relative top-1/2 -translate-y-1/2`}>
-                    <h2 className={`mb-10 text-center text-3xl font-bold`}>
+                    <h2 className={`mb-10 text-center text-4xl font-bold`}>
                         Ready to Transform Your Shopping Experience ?
                     </h2>
 

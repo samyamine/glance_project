@@ -73,8 +73,11 @@ const ttHovesProTrial = localFont({
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="en">
+            <head>
+                <title>Glance | Your personal AI fashion shopper</title>
+            </head>
             <body className={`${ttHovesProTrial.className} text-black`}>
-                <Header />
+            <Header />
                 <div className={`w-full flex flex-col items-center px-24`}>
                     {children}
                 </div>
