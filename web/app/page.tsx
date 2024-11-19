@@ -2,7 +2,7 @@ import {Button} from "@/components/ui/button";
 import {Input} from "@/components/ui/input";
 import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion";
 import Slider from "@/components/custom/slider";
-import {EHorizontalDirection} from "@/app/utils/enums";
+import {EHorizontalDirection} from "@/lib/enums";
 import HeroImages from "@/components/custom/heroImages";
 import Image from "next/image";
 import {
@@ -37,10 +37,6 @@ export default function Home() {
                     </p>
 
                     {/*  CTA: What should they do next ?  */}
-                    {/*<p className={`font-bold`}>*/}
-                    {/*    Get Early Access to Your Personal Shop !*/}
-                    {/*</p>*/}
-
                     <div className={`w-3/4 max-w-[700px] mt-3 mb-1 flex gap-2`}>
                         <Input type={`email`} placeholder={`Email`} className={`h-12 border-gray-300 shadow-none`} />
 
@@ -108,7 +104,7 @@ export default function Home() {
                         {/* Illustration */}
                         <div className="relative w-2/5 h-80">
                             <div className={`absolute top-4 left-16`}>
-                                <div className={`w-24 h-24 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                                <div className={`w-24 h-24 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/top_women_3.webp`} alt={`First box`} fill={true} className={`object-cover`}/>
                                 </div>
 
@@ -118,7 +114,7 @@ export default function Home() {
                             </div>
 
                             <div className={`absolute top-12 right-16`}>
-                                <div className={`w-20 h-20 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                                <div className={`w-20 h-20 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/shoes_men_3.webp`} alt={`Second box`} fill={true} className={`object-cover`}/>
                                 </div>
 
@@ -128,7 +124,7 @@ export default function Home() {
                             </div>
 
                             <div className={`absolute bottom-8 right-24`}>
-                                <div className={`w-28 h-28 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                                <div className={`w-28 h-28 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/jeans_women_1.webp`} alt={`Third box`} fill={true} className={`object-cover`}/>
                                 </div>
 
@@ -175,7 +171,43 @@ export default function Home() {
                         </div>
 
                           {/*Illustration  */}
-                        <div className={`w-2/5 h-80 relative bg-orange-200`}></div>
+                        <div className={`w-2/5 h-80 flex gap-5`}>
+                            {/*  Card 1  */}
+                            <div className={`w-1/2 h-full`}>
+                                <div className={`w-full h-64 p-3 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
+                                    <p className={`font-bold text-xl`}>
+                                        The Quiet Life
+                                    </p>
+
+                                    <p className={`mb-3 text-sm`}>
+                                        Featured
+                                    </p>
+
+                                    <div className={`w-full relative grow rounded-md overflow-hidden`}>
+                                        <Image src={`/featured/the_quiet_life_2.jpg`} alt={`Featured image 1`} fill={true} className={`object-cover`} objectPosition={`top`} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*  Card 2  */}
+                            <div className={`w-1/2 h-full relative`}>
+                                <div className={`w-full h-64 p-3 absolute bottom-0 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
+                                    <p className={`font-bold text-xl`}>
+                                        #FR2
+                                    </p>
+
+                                    <p className={`mb-3 text-sm`}>
+                                        Recommended for you
+                                    </p>
+
+                                    <div className={`w-full relative grow rounded-md overflow-hidden`}>
+                                        <Image src={`/featured/fxxkingrabbits_3.jpg`} alt={`Featured image 1`} fill={true} style={{ objectFit: "cover", objectPosition: "50% 75%" }} />
+                                        {/*<Image src={`/featured/fxxkingrabbits_2.jpg`} alt={`Featured image 1`} fill={true} style={{ objectFit: "cover", objectPosition: "50% 30%" }} />*/}
+                                        {/*<Image src={`/featured/fxxkingrabbits_4.jpg`} alt={`Featured image 1`} fill={true} style={{ objectFit: "cover", objectPosition: "50% 40%" }} />*/}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     {/*  Scout, Your Personal Style Assistant  */}
