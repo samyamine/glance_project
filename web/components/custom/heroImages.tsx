@@ -36,7 +36,7 @@ export default function HeroImages() {
     return (
         <div className={`w-1/3 h-[calc(100vh-96px)] relative flex justify-between items-center gap-5`}>
             <div className={`w-1/2 h-full flex flex-col justify-center`}>
-                <div className={`w-full h-2/5 -translate-y-7 mb-5 relative shadow-lg rounded-lg border-2 border-black overflow-hidden`}>
+                <div className={`w-full h-2/5 -translate-y-7 mb-5 relative shadow-xl rounded-lg border-2 border-black overflow-hidden`}>
                     {images[0].map((src, index) => (
                         <div key={index} className={`absolute inset-0 transition-opacity duration-700 delay-700 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}>
                             <Image src={src} alt={`Image top left`} fill={true} style={{ objectFit: 'cover' }}/>
@@ -44,7 +44,7 @@ export default function HeroImages() {
                     ))}
                 </div>
 
-                <div className={`w-full h-2/5 -translate-y-7 mb-5 relative shadow-lg rounded-lg border-2 border-black overflow-hidden`}>
+                <div className={`w-full h-2/5 -translate-y-7 mb-5 relative shadow-xl rounded-lg border-2 border-black overflow-hidden`}>
                     {images[1].map((src, index) => (
                         <div key={index} className={`absolute inset-0 transition-opacity duration-700 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}>
                             <Image src={src} alt={`Image bottom left`} fill={true} style={{ objectFit: 'cover' }}/>
@@ -54,7 +54,7 @@ export default function HeroImages() {
             </div>
             <div className={`w-1/2 h-full flex flex-col justify-center`}>
                 <div
-                    className={`w-full h-2/5 translate-y-3 mb-5 relative shadow-lg rounded-lg border-2 border-black overflow-hidden`}>
+                    className={`w-full h-2/5 translate-y-3 mb-5 relative shadow-xl rounded-lg border-2 border-black overflow-hidden`}>
                     {images[2].map((src, index) => (
                         <div key={index}
                              className={`absolute inset-0 transition-opacity duration-700 delay-500 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}>
@@ -64,7 +64,7 @@ export default function HeroImages() {
                 </div>
 
                 <div
-                    className={`w-full h-2/5 translate-y-3 mb-5 relative shadow-lg rounded-lg border-2 border-black overflow-hidden`}>
+                    className={`w-full h-2/5 translate-y-3 mb-5 relative shadow-xl rounded-lg border-2 border-black overflow-hidden`}>
                     {images[3].map((src, index) => (
                         <div key={index}
                              className={`absolute inset-0 transition-opacity duration-700 delay-200 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {EHorizontalDirection} from "@/app/utils/enums";
+import {EHorizontalDirection} from "@/lib/enums";
 
 export default function Slider({ direction, paths }: { direction: EHorizontalDirection, paths: Array<string>}) {
 

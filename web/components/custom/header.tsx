@@ -11,18 +11,18 @@ export default function Header() {
 
             <nav>
                 <ul className={`flex gap-3`}>
-                    <li className={`px-3 py-2 text-lg cursor-pointer rounded-lg duration-200 hover:bg-gray-100`}>
-                        <Link href={`/`}>
+                    <li className={`text-lg cursor-pointer rounded-lg duration-200 hover:bg-gray-100`}>
+                        <Link href={`/`} className={`px-3 py-2 flex items-center`}>
                             Home
                         </Link>
                     </li>
-                    <li className={`px-3 py-2 text-lg cursor-pointer rounded-lg duration-200 hover:bg-gray-100`}>
-                        <Link href={`/`}>
+                    <li className={`text-lg cursor-pointer rounded-lg duration-200 hover:bg-gray-100`}>
+                        <Link href={`/about`} className={`px-3 py-2 flex items-center`}>
                             About
                         </Link>
                     </li>
-                    <li className={`px-3 py-2 text-lg cursor-pointer rounded-lg duration-200 hover:bg-gray-100`}>
-                        <Link href={`/`}>
+                    <li className={`text-lg cursor-pointer rounded-lg duration-200 hover:bg-gray-100`}>
+                        <Link href={`/`} className={`px-3 py-2 flex items-center`}>
                             Contact
                         </Link>
                     </li>
