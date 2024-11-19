@@ -8,7 +8,7 @@ export default function AboutPage() {
 
             <article className={`max-w-[700px] flex flex-col gap-10`}>
                 <p>
-                    Hi, I’m Samy, a machine learning and data science student with a passion for fashion and
+                    Hi, I’m Samy, a computer science student with a passion for fashion and
                     innovation :)
                 </p>
 
@@ -25,10 +25,11 @@ export default function AboutPage() {
                 </p>
 
                 <p>
-                    With that vision, I am creating Glance. Powered by cutting-edge AI, Glance crafts a personalized fashion
-                    catalog for every user, helping you find pieces that truly resonate with your style, values, and
-                    needs. Whether you’re looking for the perfect outfit for a special occasion or simply want to
-                    refresh your wardrobe, Glance is here to make fashion feel personal again.
+                    With that vision, I started the creation of a new project: Glance. Powered by cutting-edge AI,
+                    Glance crafts a personalized fashion catalog for every user, helping you find pieces that truly
+                    resonate with your style, values, constraints and needs. Whether you’re looking for the perfect
+                    outfit for a special occasion or simply want to refresh your wardrobe, Glance is here to make
+                    fashion feel personal again.
                 </p>
 
                 <p>
