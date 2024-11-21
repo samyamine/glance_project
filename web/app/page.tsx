@@ -15,29 +15,30 @@ import {
     FaMinus,
     FaThumbsDown
 } from "react-icons/fa6";
+import MapPin from "@/components/custom/mapPin";
+import FeatureText from "@/components/custom/featureText";
 
 export default function Home() {
     return (
-        <>
+        <div className={`w-full max-w-[1440px] flex flex-col`}>
             {/*  Hero  */}
-            <section className={`w-full max-w-[1440px] h-screen pt-24 flex gap-5`}>
-                <div className={`w-2/3 flex flex-col justify-center`}>
+            <section className={`pt-36 lg:h-screen lg:pt-24 flex justify-between gap-10`}>
+                <div className={`w-full lg:w-2/3 max-lg:text-center max-w-[800px] flex flex-col justify-center max-lg:items-center`}>
                     {/*  What value do I provide ?  */}
-                    <h1 className={`max-w-[1000px] font-bold text-5xl`}>
-                        Your Personalized Catalogue<br/>
+                    <h1 className={`font-bold text-5xl`}>
+                        Your Personalized Catalogue
                         Curated Just for You.
                     </h1>
 
                     {/*  How do I create it ?  */}
                     <p className={`my-10 text-gray-500`}>
                         Glance redefines shopping with tailored and creative recommendations that match your taste,
-                        budget, needs, and values<br/>
-                        bringing you an exclusive experience.
+                        budget, needs, and values bringing you an exclusive experience.
                         {/*all in one exclusive experience.*/}
                     </p>
 
                     {/*  CTA: What should they do next ?  */}
-                    <div className={`w-3/4 max-w-[700px] mt-3 mb-1 flex gap-2`}>
+                    <div className={`w-3/4 max-w-[800px] mt-3 mb-1 flex gap-2`}>
                         <Input type={`email`} placeholder={`Email`} className={`h-12 border-gray-300 shadow-none`} />
 
                         <Button className={`px-8 py-6 text-lg text-white shadow-none rounded-lg bg-gradient-to-tr from-main to-second`}>
@@ -47,11 +48,13 @@ export default function Home() {
                 </div>
 
                 {/*  What does it look like ?  */}
-                <HeroImages />
+                <div className={`w-1/3 hidden lg:inline`}>
+                    <HeroImages />
+                </div>
             </section>
 
             {/*  Why should they believe it ? (company logos)  */}
-            <section className={`w-full mt-10 mb-20 max-w-[1440px]`}>
+            <section className={`mt-10 mb-20`}>
                 <div className={`mb-10`}>
                     <Slider direction={EHorizontalDirection.Right} paths={[
                         "/logos/brands/kitri.png",
@@ -79,31 +82,25 @@ export default function Home() {
             {/*  How does it work precisely ? How do I bring what I've promised ?  */}
             {/*  Features: Technical specs of what this is  */}
             {/*  Benefits: What can these features actually do for me ? (take Tesla website as an example)  */}
-            <section className={`w-full max-w-[1440px] mt-20`}>
+            <section className={`mt-20`}>
                 <h2 className={`mb-10 text-center text-4xl font-bold`}>
                     How does Glance work ?
                 </h2>
 
                 <div className={`flex flex-col gap-10`}>
                     {/*  Interactive Curation and Selection  */}
-                    <div className={`w-full py-10 flex gap-10`}>
+                    <div className={`w-full py-10 flex justify-between gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5 pt-16`}>
-                            <h3 className={`mb-10 text-3xl font-bold`}>
-                                Interactive Curation and Selection
-                            </h3>
-                            <p className={`text-lg`}>
-                                Glance learns your style, preferences, and needs through every interaction. Your personal
-                                shop is
-                                refined according to your feedbacks to help you find pieces that truly resonate with your
-                                tastes.<br/>
-                                Your fashion is unique so Glance makes sure it stays that way.
-                            </p>
+                        <div className={`w-3/5`}>
+                            <FeatureText
+                                title={`Interactive Curation and Selection`}
+                                description={`Glance learns your style, preferences, and needs through every interaction. Your personal shop is refined according to your feedbacks to help you find pieces that truly resonate with your tastes.\nYour fashion is unique so Glance makes sure it stays that way.`} />
                         </div>
 
                         {/* Illustration */}
                         <div className="relative w-2/5 h-80">
-                            <div className={`absolute top-4 left-16`}>
+                            {/*  Top left pull  */}
+                            <div className={`absolute top-4 left-0 2xl:left-[10%]`}>
                                 <div className={`w-24 h-24 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/top_women_3.webp`} alt={`First box`} fill={true} className={`object-cover`}/>
                                 </div>
@@ -113,18 +110,23 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className={`absolute top-12 right-16`}>
-                                <div className={`w-20 h-20 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
-                                    <Image src={`/clothes/shoes_men_3.webp`} alt={`Second box`} fill={true} className={`object-cover`}/>
+                            {/*  Top right shoes  */}
+                            <div className={`absolute top-12 right-[5%] 2xl:right-[20%]`}>
+                                <div
+                                    className={`w-20 h-20 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                                    <Image src={`/clothes/shoes_men_3.webp`} alt={`Second box`} fill={true}
+                                           className={`object-cover`}/>
                                 </div>
 
-                                <div className={`p-2 rounded-full absolute right-0 -translate-y-1/2 translate-x-1/2 bg-green-300`}>
-                                    <FaHeart className={`text-green-950`}/>
+                                <div className={`p-2 rounded-full absolute right-0 -translate-y-1/2 translate-x-1/2 bg-amber-300`}>
+                                    <FaCartShopping className={`text-amber-950`}/>
                                 </div>
                             </div>
 
-                            <div className={`absolute bottom-8 right-24`}>
-                                <div className={`w-28 h-28 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                            {/*  Pants  */}
+                            <div className={`absolute bottom-8 right-1/2 translate-x-1/2 md:translate-x-0 md:right-0 xl:right-[10%] 2xl:right-[18%]`}>
+                                <div
+                                    className={`w-28 h-28 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/jeans_women_1.webp`} alt={`Third box`} fill={true} className={`object-cover`}/>
                                 </div>
 
@@ -133,18 +135,21 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className={`absolute top-28 left-48`}>
+                            {/* Central shoes */}
+                            <div className={`absolute top-28 left-[33%] lg:left-[37%] hidden lg:inline`}>
                                 <div className={`w-20 h-20 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/shoes_men_1.webp`} alt={`Fourth box`} fill={true} className={`object-cover`}/>
                                 </div>
 
-                                <div className={`p-2 rounded-full absolute right-0 -translate-y-1/2 translate-x-1/2 bg-amber-300`}>
-                                    <FaCartShopping className={`text-amber-950`}/>
+                                <div className={`p-2 rounded-full absolute right-0 -translate-y-1/2 translate-x-1/2 bg-green-300`}>
+                                    <FaHeart className={`text-green-950`}/>
                                 </div>
                             </div>
 
-                            <div className={`absolute bottom-4 left-24`}>
-                                <div className={`w-24 h-24 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
+                            {/*  Bottom dress  */}
+                            <div className={`absolute bottom-4 left-[10%] lg:left-[20%] hidden md:inline`}>
+                                <div
+                                    className={`w-24 h-24 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/top_women_2.webp`} alt={`Fifth box`} fill={true} className={`object-cover`}/>
                                 </div>
 
@@ -156,25 +161,19 @@ export default function Home() {
                     </div>
 
                     {/*  Discover Original Brands & Unique Creators  */}
-                    <div className={`w-full py-10 flex gap-10`}>
+                    <div className={`w-full py-10 flex justify-between gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5 pt-16`}>
-                            <h3 className={`mb-10 text-3xl font-bold`}>
-                                Discover Original Brands & Unique Creators
-                            </h3>
-                            <p className={`text-lg`}>
-                                Step beyond the mainstream. Glance brings you inspiration by handpicking looks and
-                                original creators you will hardly find anywhere else. Discover new favorites and fresh,
-                                curated
-                                styles that feel crafted just for you.
-                            </p>
+                        <div className={`w-3/5`}>
+                            <FeatureText
+                                title={`Discover Original Brands & Unique Creators`}
+                                description={`Step beyond the mainstream. Glance brings you inspiration by handpicking looks and original creators you will hardly find anywhere else. Discover new favorites and fresh, curated styles that feel crafted just for you.`} />
                         </div>
 
-                          {/*Illustration  */}
+                        {/*Illustration  */}
                         <div className={`w-2/5 h-80 flex gap-5`}>
                             {/*  Card 1  */}
-                            <div className={`w-1/2 h-full`}>
-                                <div className={`w-full h-64 p-3 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
+                            <div className={`w-full lg:w-1/2 h-full`}>
+                                <div className={`w-full h-full lg:h-64 p-3 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
                                     <p className={`font-bold text-xl`}>
                                         The Quiet Life
                                     </p>
@@ -190,7 +189,7 @@ export default function Home() {
                             </div>
 
                             {/*  Card 2  */}
-                            <div className={`w-1/2 h-full relative`}>
+                            <div className={`w-1/2 h-full relative hidden lg:inline`}>
                                 <div className={`w-full h-64 p-3 absolute bottom-0 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
                                     <p className={`font-bold text-xl`}>
                                         #FR2
@@ -211,19 +210,12 @@ export default function Home() {
                     </div>
 
                     {/*  Scout, Your Personal Style Assistant  */}
-                    <div className={`w-full py-10 flex gap-10`}>
+                    <div className={`w-full py-10 flex justify-between gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5 pt-16`}>
-                            <h3 className={`mb-10 text-3xl font-bold`}>
-                                Scout, Your Personal Style Assistant
-                            </h3>
-                            <p className={`text-lg`}>
-                                Searching for the perfect outfit for a special occasion? Scout is here to help. From
-                                weddings to
-                                milestone moments, this intuitive style assistant finds standout pieces that make you
-                                shine.<br/>
-                                No endless scrolling required.
-                            </p>
+                        <div className={`w-3/5`}>
+                            <FeatureText
+                                title={`Scout, Your Personal Style Assistant`}
+                                description={`Searching for the perfect outfit for a special occasion? Scout is here to help. From weddings to milestone moments, this intuitive style assistant finds standout pieces that make you shine.\nNo endless scrolling required.`} />
                         </div>
 
                         {/*  Illustration  */}
@@ -231,49 +223,105 @@ export default function Home() {
                     </div>
 
                     {/*  Unlimited Choices, Global Reach  */}
-                    <div className={`w-full py-10 flex gap-10`}>
+                    <div className={`w-full py-10 flex justify-between gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5 pt-16`}>
-                            <h3 className={`mb-10 text-3xl font-bold`}>
-                                Unlimited Choices, Global Reach
-                            </h3>
-                            <p className={`text-lg`}>
-                                Glance connects you with diverse inventories from trusted suppliers worldwide, so you’re
-                                never
-                                limited by stock shortages. With global delivery, it’s easy to find and access exactly what
-                                you
-                                need, when you need it.
-                            </p>
+                        <div className={`w-3/5`}>
+                            <FeatureText
+                                title={`Unlimited Choices, Global Reach`}
+                                description={`Glance connects you with diverse inventories from trusted suppliers worldwide, so you’re never limited by stock shortages. With global delivery, it’s easy to find and access exactly what you need, when you need it.`}/>
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-2/5 h-80 bg-orange-200`}>
-                            {/*Planète avec plein de routes de livraison*/}
+                        <div className={`w-2/5 h-80 flex flex-col justify-center items-center gap-2 bg-orange-200`}>
+                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 lg:-translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
+                                <div className={`w-20 h-full relative bg-green-300`}>
+                                    <Image src={`/clothes/jacket_men_1.webp`} alt={`Tshirt men`} fill={true}
+                                           objectFit={`cover`}/>
+                                </div>
+
+                                <div className={`flex flex-col justify-center`}>
+                                    <div className={`flex gap-2 items-center`}>
+                                        <Image src={`/flags/australia.svg`} alt={`Australian flag`} width={32}
+                                               height={1}/>
+                                        <p className={`font-bold`}>
+                                            Australia
+                                        </p>
+                                    </div>
+
+                                    <div className={`flex gap-2 items-center`}>
+                                        <div className={`w-2 h-2 rounded-full bg-green-300`}>
+                                            <div className={`w-2 h-2 rounded-full animate-ping bg-green-300`}></div>
+                                        </div>
+
+                                        <p className={`text-xs text-gray-500`}>
+                                            Available
+                                        </p>
+                                    </div>
+
+                                    <p className={`text-xs text-gray-500`}>
+                                        Estimated shipping time: 5-7 days
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 lg:translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
+                                <div className={`w-20 h-full relative bg-green-300`}>
+                                    <Image src={`/clothes/cap_men_1.webp`} alt={`Tshirt men`} fill={true}
+                                           objectFit={`cover`}/>
+                                </div>
+
+                                <div className={`flex flex-col justify-center`}>
+                                    <div className={`flex gap-2 items-center`}>
+                                        <Image src={`/flags/new_zealand.svg`} alt={`New Zealand flag`} width={32}
+                                               height={1}/>
+                                        <p className={`font-bold`}>
+                                            New Zealand
+                                        </p>
+                                    </div>
+
+                                    <div className={`flex gap-2 items-center`}>
+                                        <div className={`w-2 h-2 rounded-full bg-green-300`}>
+                                            <div className={`w-2 h-2 rounded-full animate-ping bg-green-300`}></div>
+                                        </div>
+
+                                        <p className={`text-xs text-gray-500`}>
+                                            Available
+                                        </p>
+                                    </div>
+
+                                    <p className={`text-xs text-gray-500`}>
+                                        Estimated shipping time: 7 days
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                     {/*  Fashion in Green  */}
-                    <div className={`w-full mt-10 pl-10 pr-5 py-5 flex gap-10 bg-green-300 rounded-xl border-2 border-green-950`}>
+                    <div className={`w-full mt-10 lg:pl-10 lg:pr-5 max-lg:px-5 py-5 flex max-lg:flex-col max-lg:items-center lg:justify-between lg:gap-10 bg-green-300 rounded-xl border-2 border-green-950`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5 pt-10`}>
-                            <div className={`mb-5 flex items-center gap-5`}>
+                        <div className={`w-full lg:w-3/5 lg:pt-10`}>
+                            {/*  Switcher  */}
+                            <div className={`mb-5 hidden lg:flex items-center gap-5`}>
                                 <div className={`w-16 h-8 p-1 relative rounded-full bg-green-950`}>
                                     <div className={`w-6 h-6 absolute right-1 rounded-full bg-white`}></div>
                                 </div>
                             </div>
 
-                            <h3 className={`mb-10 flex items-center gap-4 text-3xl font-bold text-green-950`}>
-                                <FaEarthEurope /> Fashion in Green
+                            <h3 className={`mb-10 flex items-center max-lg:justify-center gap-4 text-3xl font-bold text-green-950`}>
+                                <FaEarthEurope/> Fashion in Green
                             </h3>
-                            <p className={`text-lg text-green-950`}>
-                                At Glance, sustainability is part of our mission. Our Green Mode highlights eco-friendly and
-                                responsibly-made products, allowing you to make mindful choices with every purchase. Glance
+                            <p className={`text-lg text-green-950 max-lg:text-center`}>
+                                At Glance, sustainability is part of our mission. Our Green Mode highlights eco-friendly
+                                and
+                                responsibly-made products, allowing you to make mindful choices with every purchase.
+                                Glance
                                 lets you track and reduce your footprint, making sustainable shopping easy.
                             </p>
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-2/5 h-full px-4 py-2 rounded-lg shadow-xl  bg-white`}>
+                        <div className={`w-fit max-lg:mt-10 lg:w-2/5 h-full px-4 py-2 rounded-lg shadow-xl bg-white`}>
                             {/*  Header: Critères éco-responsables  */}
                             <div className={`w-full py-3 mb-3`}>
                                 <p className={`font-bold mb-1`}>
@@ -281,18 +329,18 @@ export default function Home() {
                                 </p>
 
                                 <div className={`flex gap-3`}>
-                                    <p className={`flex items-center gap-2 text-sm`}>
-                                        <FaLeaf className={`text-green-800`} />
+                                    <p className={`flex items-center gap-2 text-xs xl:text-sm`}>
+                                        <FaLeaf className={`text-green-800`}/>
                                         100% Eco-Friendly Materials
                                     </p>
                                     |
-                                    <p className={`flex items-center gap-2 text-sm`}>
-                                        <FaCow className={`text-green-800`} />
+                                    <p className={`flex items-center gap-2 text-xs xl:text-sm`}>
+                                        <FaCow className={`text-green-800`}/>
                                         Vegan
                                     </p>
                                     |
-                                    <p className={`flex items-center gap-2 text-sm`}>
-                                        <FaLocationDot className={`text-green-800`} />
+                                    <p className={`flex items-center gap-2 text-xs xl:text-sm`}>
+                                        <FaLocationDot className={`text-green-800`}/>
                                         Made in Portugal
                                     </p>
                                 </div>
@@ -302,11 +350,12 @@ export default function Home() {
                             <div className={`pb-3 flex gap-3`}>
                                 {/*  Image  */}
                                 <div className={`w-48 h-48 relative bg-white rounded-lg overflow-hidden`}>
-                                    <Image src={`/clothes/top_men_4.webp`} alt={`Apparel picture`} fill={true} className={`object-cover`}/>
+                                    <Image src={`/clothes/top_men_4.webp`} alt={`Apparel picture`} fill={true}
+                                           className={`object-cover`}/>
                                 </div>
 
-                                {/*  Origine, Labels, Labels  */}
-                                <div className={`w-full px-5 pb-1 flex flex-col justify-between`}>
+                                {/*  Composition, Labels  */}
+                                <div className={`w-full max-w-[300px] px-5 pb-1 flex flex-col justify-between`}>
                                     <div>
                                         <p className={`font-bold mb-1`}>
                                             Composition
@@ -343,13 +392,12 @@ export default function Home() {
             </section>
 
             {/*  FAQ  */}
-            <section className={`w-full max-w-[1440px] mt-40`}>
+            <section className={`mt-40`}>
                 <h2 className={`mb-20 text-center text-4xl font-bold`}>
                     Frequently Asked Questions
                 </h2>
 
-                <div
-                    className={`w-1/2 max-w-[700px] px-3 rounded-lg bg-gray-100 relative left-1/2 -translate-x-1/2 border-[1px] border-gray-300`}>
+                <div className={`w-full sm:w-2/3 lg:w-1/2 max-w-[700px] px-3 rounded-lg bg-gray-100 relative left-1/2 -translate-x-1/2 border-[1px] border-gray-300`}>
                     <Accordion type="single" collapsible>
                         <AccordionItem value="item-1">
                             <AccordionTrigger>What is Glance ?</AccordionTrigger>
@@ -412,7 +460,7 @@ export default function Home() {
             </section>
 
             {/*  Last Call to Action  */}
-            <section className={`w-full max-w-[1440px] my-60 h-80 relative`}>
+            <section className={`my-60 h-80 relative`}>
                 <div className={`w-72 h-72 absolute left-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-left`}></div>
                 <div className={`w-72 h-72 absolute top-10 left-[40%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-center`}></div>
                 <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-right`}></div>
@@ -436,6 +484,6 @@ export default function Home() {
                     </p>
                 </div>
             </section>
-        </>
+        </div>
     );
 }
