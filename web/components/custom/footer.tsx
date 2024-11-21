@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <div className={`w-full px-24 py-10 bg-black text-white flex justify-between items-center`}>
+        <div className={`w-full px-4 md:px-16 lg:px-24 py-10 bg-black text-white flex justify-between items-center`}>
             <div>
                 <p className={`text-lg`}>
                     Made by <a href={`https://github.com/ouiam-ib`} className={`duration-200 underline-offset-4 hover:underline`}>Ouiam</a> & <a href={`https://github.com/samyamine`} className={`duration-200 underline-offset-4 hover:underline`}>Samy</a>

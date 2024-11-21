@@ -34,7 +34,7 @@ export default function HeroImages() {
     }, [images]);
 
     return (
-        <div className={`w-1/3 h-[calc(100vh-96px)] relative flex justify-between items-center gap-5`}>
+        <div className={`w-full h-[calc(100vh-96px)] relative flex justify-between items-center gap-5`}>
             <div className={`w-1/2 h-full flex flex-col justify-center`}>
                 <div className={`w-full h-2/5 -translate-y-7 mb-5 relative shadow-xl rounded-lg border-2 border-black overflow-hidden`}>
                     {images[0].map((src, index) => (
