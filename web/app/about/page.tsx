@@ -2,7 +2,7 @@
 export default function AboutPage() {
     return (
         <div className={`py-36 min-h-screen text-start`}>
-            <h1 className={`mb-10 max-w-[1000px] font-bold text-4xl`}>
+            <h1 className={`mb-10 max-w-[700px] font-bold text-4xl`}>
                 About me
             </h1>
 
