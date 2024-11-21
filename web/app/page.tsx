@@ -460,10 +460,11 @@ export default function Home() {
             </section>
 
             {/*  Last Call to Action  */}
-            <section className={`my-60 h-80 relative`}>
-                <div className={`w-72 h-72 absolute left-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-left`}></div>
-                <div className={`w-72 h-72 absolute top-10 left-[40%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-center`}></div>
-                <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-right`}></div>
+            <section className={`w-full my-60 h-80 relative`}>
+                {/*  Background Bubbles (From left to right)  */}
+                <div className={`w-72 h-72 absolute left-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-left max-xl:hidden`}></div>
+                <div className={`w-52 h-52 sm:w-72 sm:h-72 absolute top-10 left-1/2 -translate-x-1/2 xl:left-[40%] bg-main mix-blend-multiply filter blur-2xl rounded-full animate-blur-center xl:animate-blur-center-xl`}></div>
+                <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-right max-xl:hidden`}></div>
 
                 <div className={`relative top-1/2 -translate-y-1/2`}>
                     <h2 className={`mb-10 text-center text-4xl font-bold`}>

@@ -107,7 +107,7 @@ const config: Config = {
 					transform: "translate(0px, 0px) scale(0.9)",
 				},
 			},
-			'blur-center': {
+			'blur-center-xl': {
 				"0%": {
 					transform: "scale(1.3)",
 				},
@@ -116,6 +116,17 @@ const config: Config = {
 				},
 				"100%": {
 					transform: "scale(1.3)",
+				},
+			},
+			'blur-center': {
+				"0%": {
+					transform: "translate(-50%, 0) scale(1.3)",
+				},
+				"50%": {
+					transform: "translate(-50%, 0) scale(1.7)",
+				},
+				"100%": {
+					transform: "translate(-50%, 0) scale(1.3)",
 				},
 			},
 			'blur-right': {
@@ -137,6 +148,7 @@ const config: Config = {
 			'infinite-scroll-right': "infinite-scroll-right 15s linear infinite",
 			'blur-left': "blur-left 7s infinite",
 			'blur-center': "blur-center 8s infinite",
+			'blur-center-xl': "blur-center-xl 8s infinite",
 			'blur-right': "blur-right 6s infinite",
   		}
   	}
