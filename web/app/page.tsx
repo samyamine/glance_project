@@ -89,16 +89,16 @@ export default function Home() {
 
                 <div className={`flex flex-col gap-10`}>
                     {/*  Interactive Curation and Selection  */}
-                    <div className={`w-full py-10 flex justify-between gap-10`}>
+                    <div className={`w-full py-10 flex md:justify-between max-md:flex-col gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5`}>
+                        <div className={`w-full md:w-3/5`}>
                             <FeatureText
                                 title={`Interactive Curation and Selection`}
                                 description={`Glance learns your style, preferences, and needs through every interaction. Your personal shop is refined according to your feedbacks to help you find pieces that truly resonate with your tastes.\nYour fashion is unique so Glance makes sure it stays that way.`} />
                         </div>
 
                         {/* Illustration */}
-                        <div className="relative w-2/5 h-80">
+                        <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-80 max-md:left-1/2 max-md:-translate-x-1/2`}>
                             {/*  Top left pull  */}
                             <div className={`absolute top-4 left-0 2xl:left-[10%]`}>
                                 <div className={`w-24 h-24 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
@@ -124,7 +124,7 @@ export default function Home() {
                             </div>
 
                             {/*  Pants  */}
-                            <div className={`absolute bottom-8 right-1/2 translate-x-1/2 md:translate-x-0 md:right-0 xl:right-[10%] 2xl:right-[18%]`}>
+                            <div className={`absolute bottom-8 translate-x-0 max-sm:right-5 max-md:right-28 right-0 xl:right-[10%] 2xl:right-[18%]`}>
                                 <div
                                     className={`w-28 h-28 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/jeans_women_1.webp`} alt={`Third box`} fill={true} className={`object-cover`}/>
@@ -136,7 +136,7 @@ export default function Home() {
                             </div>
 
                             {/* Central shoes */}
-                            <div className={`absolute top-28 left-[33%] lg:left-[37%] hidden lg:inline`}>
+                            <div className={`absolute top-28 left-[33%] lg:left-[37%] md:hidden lg:inline`}>
                                 <div className={`w-20 h-20 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/shoes_men_1.webp`} alt={`Fourth box`} fill={true} className={`object-cover`}/>
                                 </div>
@@ -147,7 +147,7 @@ export default function Home() {
                             </div>
 
                             {/*  Bottom dress  */}
-                            <div className={`absolute bottom-4 left-[10%] lg:left-[20%] hidden md:inline`}>
+                            <div className={`absolute bottom-4 left-[10%] lg:left-[20%]`}>
                                 <div
                                     className={`w-24 h-24 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/top_women_2.webp`} alt={`Fifth box`} fill={true} className={`object-cover`}/>
@@ -161,19 +161,19 @@ export default function Home() {
                     </div>
 
                     {/*  Discover Original Brands & Unique Creators  */}
-                    <div className={`w-full py-10 flex justify-between gap-10`}>
+                    <div className={`w-full py-10 flex md:justify-between max-md:flex-col gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5`}>
+                        <div className={`w-full md:w-3/5`}>
                             <FeatureText
                                 title={`Discover Original Brands & Unique Creators`}
                                 description={`Step beyond the mainstream. Glance brings you inspiration by handpicking looks and original creators you will hardly find anywhere else. Discover new favorites and fresh, curated styles that feel crafted just for you.`} />
                         </div>
 
                         {/*Illustration  */}
-                        <div className={`w-2/5 h-80 flex gap-5`}>
+                        <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-80 flex gap-5 max-md:left-1/2 max-md:-translate-x-1/2`}>
                             {/*  Card 1  */}
-                            <div className={`w-full lg:w-1/2 h-full`}>
-                                <div className={`w-full h-full lg:h-64 p-3 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
+                            <div className={`max-md:w-1/2 w-full lg:w-1/2 h-full`}>
+                                <div className={`w-full max-md:h-64 h-full lg:h-64 p-3 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
                                     <p className={`font-bold text-xl`}>
                                         The Quiet Life
                                     </p>
@@ -189,7 +189,7 @@ export default function Home() {
                             </div>
 
                             {/*  Card 2  */}
-                            <div className={`w-1/2 h-full relative hidden lg:inline`}>
+                            <div className={`max-md:w-1/2 w-full lg:w-1/2 h-full relative md:hidden lg:inline`}>
                                 <div className={`w-full h-64 p-3 absolute bottom-0 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
                                     <p className={`font-bold text-xl`}>
                                         #FR2
@@ -210,30 +210,30 @@ export default function Home() {
                     </div>
 
                     {/*  Scout, Your Personal Style Assistant  */}
-                    <div className={`w-full py-10 flex justify-between gap-10`}>
+                    <div className={`w-full py-10 flex md:justify-between max-md:flex-col gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5`}>
+                        <div className={`w-full md:w-3/5`}>
                             <FeatureText
                                 title={`Scout, Your Personal Style Assistant`}
                                 description={`Searching for the perfect outfit for a special occasion? Scout is here to help. From weddings to milestone moments, this intuitive style assistant finds standout pieces that make you shine.\nNo endless scrolling required.`} />
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-2/5 h-80 bg-orange-200`}></div>
+                        <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-80 max-md:left-1/2 max-md:-translate-x-1/2 bg-orange-200`}></div>
                     </div>
 
                     {/*  Unlimited Choices, Global Reach  */}
-                    <div className={`w-full py-10 flex justify-between gap-10`}>
+                    <div className={`w-full py-10 flex md:justify-between max-md:flex-col gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-3/5`}>
+                        <div className={`w-full md:w-3/5`}>
                             <FeatureText
                                 title={`Unlimited Choices, Global Reach`}
                                 description={`Glance connects you with diverse inventories from trusted suppliers worldwide, so you’re never limited by stock shortages. With global delivery, it’s easy to find and access exactly what you need, when you need it.`}/>
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-2/5 h-80 flex flex-col justify-center items-center gap-2 bg-orange-200`}>
-                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 lg:-translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
+                        <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-36 md:h-80 max-md:left-1/2 max-md:-translate-x-1/2 flex flex-col md:justify-center items-center gap-2`}>
+                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 max-md:-translate-x-5 lg:-translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
                                 <div className={`w-20 h-full relative bg-green-300`}>
                                     <Image src={`/clothes/jacket_men_1.webp`} alt={`Tshirt men`} fill={true}
                                            objectFit={`cover`}/>
@@ -264,7 +264,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 lg:translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
+                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 max-md:translate-x-5 lg:translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
                                 <div className={`w-20 h-full relative bg-green-300`}>
                                     <Image src={`/clothes/cap_men_1.webp`} alt={`Tshirt men`} fill={true}
                                            objectFit={`cover`}/>
