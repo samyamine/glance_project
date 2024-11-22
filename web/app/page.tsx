@@ -25,7 +25,7 @@ export default function Home() {
             <section className={`pt-36 lg:h-screen lg:pt-24 flex justify-between gap-10`}>
                 <div className={`w-full lg:w-2/3 max-lg:text-center max-w-[800px] flex flex-col justify-center max-lg:items-center`}>
                     {/*  What value do I provide ?  */}
-                    <h1 className={`font-bold text-5xl`}>
+                    <h1 className={`font-bold text-3xl sm:text-4xl md:text-5xl`}>
                         Your Personalized Catalogue
                         Curated Just for You.
                     </h1>
@@ -135,8 +135,8 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            {/* Central shoes */}
-                            <div className={`absolute top-28 left-[33%] lg:left-[37%] md:hidden lg:inline`}>
+                            {/* Center shoes */}
+                            <div className={`absolute top-28 left-[33%] lg:left-[37%] max-[375px]:hidden sm:inline md:hidden lg:inline`}>
                                 <div className={`w-20 h-20 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/shoes_men_1.webp`} alt={`Fourth box`} fill={true} className={`object-cover`}/>
                                 </div>
