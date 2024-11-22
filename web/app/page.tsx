@@ -321,7 +321,7 @@ export default function Home() {
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`w-fit max-lg:mt-10 lg:w-2/5 h-full px-4 py-2 rounded-lg shadow-xl bg-white`}>
+                        <div className={`max-[500px]:hidden w-fit max-lg:mt-10 lg:w-2/5 h-full px-4 py-2 rounded-lg shadow-xl bg-white`}>
                             {/*  Header: Critères éco-responsables  */}
                             <div className={`w-full py-3 mb-3`}>
                                 <p className={`font-bold mb-1`}>
