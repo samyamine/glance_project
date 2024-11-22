@@ -15,7 +15,6 @@ import {
     FaMinus,
     FaThumbsDown
 } from "react-icons/fa6";
-import MapPin from "@/components/custom/mapPin";
 import FeatureText from "@/components/custom/featureText";
 
 export default function Home() {
@@ -54,7 +53,7 @@ export default function Home() {
             </section>
 
             {/*  Why should they believe it ? (company logos)  */}
-            <section className={`mt-10 mb-20`}>
+            <section className={`mt-10 md:mb-20`}>
                 <div className={`mb-10`}>
                     <Slider direction={EHorizontalDirection.Right} paths={[
                         "/logos/brands/kitri.png",
@@ -298,7 +297,7 @@ export default function Home() {
                     </div>
 
                     {/*  Fashion in Green  */}
-                    <div className={`w-full mt-10 lg:pl-10 lg:pr-5 max-lg:px-5 py-5 flex max-lg:flex-col max-lg:items-center lg:justify-between lg:gap-10 bg-green-300 rounded-xl border-2 border-green-950`}>
+                    <div className={`w-full max-md:mt-16 lg:pl-10 lg:pr-5 max-lg:px-5 py-5 flex max-lg:flex-col max-lg:items-center lg:justify-between lg:gap-10 bg-green-300 rounded-xl border-2 border-green-950`}>
                         {/*  Benefit description  */}
                         <div className={`w-full lg:w-3/5 lg:pt-10`}>
                             {/*  Switcher  */}
@@ -393,7 +392,7 @@ export default function Home() {
 
             {/*  FAQ  */}
             <section className={`mt-40`}>
-                <h2 className={`mb-20 text-center text-3xl md:text-4xl font-bold`}>
+                <h2 className={`mb-10 md:mb-20 text-center text-3xl md:text-4xl font-bold`}>
                     Frequently Asked Questions
                 </h2>
 

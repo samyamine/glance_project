@@ -6,12 +6,6 @@ import {getImageSamples} from "@/lib/utils";
 
 export default function HeroImages() {
     const number_images = 4;
-    // const [images, setImages] = useState<string[]>([
-    //     "/clothes/shoes_men_1.webp",
-    //     "/clothes/jeans_women_1.webp",
-    //     "/clothes/top_women_4.webp",
-    //     "/clothes/shoes_men_3.webp",
-    // ]);
     const [images, setImages] = useState<Array<Array<string>>>([
         ["/clothes/shoes_men_1.webp"],
         ["/clothes/jeans_women_1.webp"],
