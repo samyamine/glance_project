@@ -233,7 +233,7 @@ export default function Home() {
 
                         {/*  Illustration  */}
                         <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-36 md:h-80 max-md:left-1/2 max-md:-translate-x-1/2 flex flex-col md:justify-center items-center gap-2`}>
-                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 max-md:-translate-x-5 lg:-translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
+                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 max-[400px]:translate-x-0 max-md:-translate-x-5 lg:-translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
                                 <div className={`w-20 h-full relative bg-green-300`}>
                                     <Image src={`/clothes/jacket_men_1.webp`} alt={`Tshirt men`} fill={true}
                                            objectFit={`cover`}/>
@@ -264,7 +264,7 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 max-md:translate-x-5 lg:translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
+                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 max-[400px]:translate-x-0 max-md:translate-x-5 lg:translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
                                 <div className={`w-20 h-full relative bg-green-300`}>
                                     <Image src={`/clothes/cap_men_1.webp`} alt={`Tshirt men`} fill={true}
                                            objectFit={`cover`}/>
