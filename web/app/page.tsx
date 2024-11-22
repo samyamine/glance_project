@@ -25,7 +25,7 @@ export default function Home() {
             <section className={`pt-36 lg:h-screen lg:pt-24 flex justify-between gap-10`}>
                 <div className={`w-full lg:w-2/3 max-lg:text-center max-w-[800px] flex flex-col justify-center max-lg:items-center`}>
                     {/*  What value do I provide ?  */}
-                    <h1 className={`font-bold text-3xl sm:text-4xl md:text-5xl`}>
+                    <h1 className={`font-bold text-4xl md:text-5xl`}>
                         Your Personalized Catalogue
                         Curated Just for You.
                     </h1>
@@ -38,8 +38,8 @@ export default function Home() {
                     </p>
 
                     {/*  CTA: What should they do next ?  */}
-                    <div className={`w-3/4 max-w-[800px] mt-3 mb-1 flex gap-2`}>
-                        <Input type={`email`} placeholder={`Email`} className={`h-12 border-gray-300 shadow-none`} />
+                    <div className={`w-3/4 max-w-[800px] mt-3 mb-1 flex gap-2 max-sm:justify-center`}>
+                        <Input type={`email`} placeholder={`Email`} className={`max-sm:hidden h-12 border-gray-300 shadow-none`} />
 
                         <Button className={`px-8 py-6 text-lg text-white shadow-none rounded-lg bg-gradient-to-tr from-main to-second`}>
                             Join waitlist
@@ -83,8 +83,8 @@ export default function Home() {
             {/*  Features: Technical specs of what this is  */}
             {/*  Benefits: What can these features actually do for me ? (take Tesla website as an example)  */}
             <section className={`mt-20`}>
-                <h2 className={`mb-10 text-center text-4xl font-bold`}>
-                    How does Glance work ?
+                <h2 className={`max-sm:hidden mb-10 text-center text-3xl md:text-4xl font-bold`}>
+                    How does Glance work?
                 </h2>
 
                 <div className={`flex flex-col gap-10`}>
@@ -393,7 +393,7 @@ export default function Home() {
 
             {/*  FAQ  */}
             <section className={`mt-40`}>
-                <h2 className={`mb-20 text-center text-4xl font-bold`}>
+                <h2 className={`mb-20 text-center text-3xl md:text-4xl font-bold`}>
                     Frequently Asked Questions
                 </h2>
 
@@ -463,15 +463,15 @@ export default function Home() {
             <section className={`w-full my-60 h-80 relative`}>
                 {/*  Background Bubbles (From left to right)  */}
                 <div className={`w-72 h-72 absolute left-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-left max-xl:hidden`}></div>
-                <div className={`w-52 h-52 sm:w-72 sm:h-72 absolute top-10 left-1/2 -translate-x-1/2 xl:left-[40%] bg-main mix-blend-multiply filter blur-2xl rounded-full animate-blur-center xl:animate-blur-center-xl`}></div>
+                <div className={`w-44 h-44 md:w-72 md:h-72 absolute top-10 left-1/2 -translate-x-1/2 xl:left-[40%] bg-main mix-blend-multiply filter blur-2xl rounded-full animate-blur-center xl:animate-blur-center-xl`}></div>
                 <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-right max-xl:hidden`}></div>
 
                 <div className={`relative top-1/2 -translate-y-1/2`}>
-                    <h2 className={`mb-10 text-center text-4xl font-bold`}>
+                    <h2 className={`mb-10 text-center text-3xl md:text-4xl font-bold`}>
                         Ready to Transform Your Shopping Experience ?
                     </h2>
 
-                    <div className={`w-3/4 max-w-[700px] p-1 border-gray-20 rounded-lg flex gap-2 relative left-1/2 -translate-x-1/2 bg-white`}>
+                    <div className={`max-sm:hidden w-3/4 max-w-[700px] p-1 border-gray-20 rounded-lg flex gap-2 relative left-1/2 -translate-x-1/2 bg-white`}>
                         <Input type={`email`} placeholder={`Email`}
                                className={`h-12 border-gray-300 shadow-none border-none`}/>
 
@@ -480,7 +480,11 @@ export default function Home() {
                         </Button>
                     </div>
 
-                    <p className={`mt-3 text-xs text-center`}>
+                    <Button className={`sm:hidden relative left-1/2 -translate-x-1/2 px-8 py-6 text-lg shadow-none rounded-lg`}>
+                        Join waitlist
+                    </Button>
+
+                    <p className={`max-sm:hidden mt-3 text-xs text-center`}>
                         We'll never share your info with anyone.
                     </p>
                 </div>
