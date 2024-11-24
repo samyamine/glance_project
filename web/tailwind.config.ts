@@ -140,6 +140,17 @@ const config: Config = {
 					transform: "translate(0px, 0px) scale(0.9)",
 				},
 			},
+			'soft-floating': {
+				"0%": {
+					transform: "translate(0px, -5px)",
+				},
+				"50%": {
+					transform: "translate(0px, 5px)",
+				},
+				"100%": {
+					transform: "translate(0px, -5px)",
+				},
+			},
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
@@ -150,6 +161,7 @@ const config: Config = {
 			'blur-center': "blur-center 8s infinite",
 			'blur-center-xl': "blur-center-xl 8s infinite",
 			'blur-right': "blur-right 6s infinite",
+			'soft-floating': "soft-floating 6s infinite",
   		}
   	}
   },

@@ -18,6 +18,7 @@ import {
 import FeatureText from "@/components/custom/featureText";
 
 export default function Home() {
+    // FIXME: Animations
     return (
         <div className={`w-full max-w-[1440px] flex flex-col`}>
             {/*  Hero  */}
@@ -99,7 +100,7 @@ export default function Home() {
                         {/* Illustration */}
                         <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-80 max-md:left-1/2 max-md:-translate-x-1/2`}>
                             {/*  Top left pull  */}
-                            <div className={`absolute top-4 left-0 2xl:left-[10%]`}>
+                            <div className={`absolute top-4 left-0 2xl:left-[10%] md:animate-soft-floating`}>
                                 <div className={`w-24 h-24 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/top_women_3.webp`} alt={`First box`} fill={true} className={`object-cover`}/>
                                 </div>
@@ -110,7 +111,7 @@ export default function Home() {
                             </div>
 
                             {/*  Top right shoes  */}
-                            <div className={`absolute top-12 right-[5%] 2xl:right-[20%]`}>
+                            <div className={`absolute top-12 right-[5%] 2xl:right-[20%] md:animate-soft-floating md:delay-300`}>
                                 <div
                                     className={`w-20 h-20 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/shoes_men_3.webp`} alt={`Second box`} fill={true}
@@ -123,7 +124,7 @@ export default function Home() {
                             </div>
 
                             {/*  Pants  */}
-                            <div className={`absolute bottom-8 translate-x-0 max-sm:right-5 max-md:right-28 right-0 xl:right-[10%] 2xl:right-[18%]`}>
+                            <div className={`absolute bottom-8 translate-x-0 max-sm:right-5 max-md:right-28 right-0 xl:right-[10%] 2xl:right-[18%] md:animate-soft-floating md:delay-200`}>
                                 <div
                                     className={`w-28 h-28 relative shadow-xl rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/jeans_women_1.webp`} alt={`Third box`} fill={true} className={`object-cover`}/>
@@ -135,7 +136,7 @@ export default function Home() {
                             </div>
 
                             {/* Center shoes */}
-                            <div className={`absolute top-28 left-[33%] lg:left-[37%] max-[375px]:hidden sm:inline md:hidden lg:inline`}>
+                            <div className={`absolute top-28 left-[33%] lg:left-[37%] max-[375px]:hidden sm:inline md:hidden lg:inline md:animate-soft-floating md:delay-150`}>
                                 <div className={`w-20 h-20 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/shoes_men_1.webp`} alt={`Fourth box`} fill={true} className={`object-cover`}/>
                                 </div>
@@ -146,7 +147,7 @@ export default function Home() {
                             </div>
 
                             {/*  Bottom dress  */}
-                            <div className={`absolute bottom-4 left-[10%] lg:left-[20%]`}>
+                            <div className={`absolute bottom-4 left-[10%] lg:left-[20%] md:animate-soft-floating md:delay-700`}>
                                 <div
                                     className={`w-24 h-24 relative shadow-md rounded-lg border-2 border-black flex items-center justify-center overflow-hidden`}>
                                     <Image src={`/clothes/top_women_2.webp`} alt={`Fifth box`} fill={true} className={`object-cover`}/>
@@ -171,7 +172,7 @@ export default function Home() {
                         {/*Illustration  */}
                         <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-80 flex gap-5 max-md:left-1/2 max-md:-translate-x-1/2`}>
                             {/*  Card 1  */}
-                            <div className={`max-md:w-1/2 w-full lg:w-1/2 h-full`}>
+                            <div className={`max-md:w-1/2 w-full lg:w-1/2 h-full md:animate-soft-floating`}>
                                 <div className={`w-full max-md:h-64 h-full lg:h-64 p-3 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
                                     <p className={`font-bold text-xl`}>
                                         The Quiet Life
@@ -188,7 +189,7 @@ export default function Home() {
                             </div>
 
                             {/*  Card 2  */}
-                            <div className={`max-md:w-1/2 w-full lg:w-1/2 h-full relative md:hidden lg:inline`}>
+                            <div className={`max-md:w-1/2 w-full lg:w-1/2 h-full relative md:hidden lg:inline md:animate-soft-floating md:delay-700`}>
                                 <div className={`w-full h-64 p-3 absolute bottom-0 flex flex-col shadow-xl rounded-lg border-2 border-black bg-white`}>
                                     <p className={`font-bold text-xl`}>
                                         #FR2
@@ -217,6 +218,7 @@ export default function Home() {
                                 description={`Searching for the perfect outfit for a special occasion? Scout is here to help. From weddings to milestone moments, this intuitive style assistant finds standout pieces that make you shine.\nNo endless scrolling required.`} />
                         </div>
 
+                        {/*  FIXME: Illustration  */}
                         {/*  Illustration  */}
                         <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-80 max-md:left-1/2 max-md:-translate-x-1/2 bg-orange-200`}></div>
                     </div>
