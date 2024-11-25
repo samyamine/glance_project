@@ -16,9 +16,9 @@ import {
     FaThumbsDown
 } from "react-icons/fa6";
 import FeatureText from "@/components/custom/featureText";
+import SuggestionCard from "@/components/custom/suggestionCard";
 
 export default function Home() {
-    // FIXME: Animations
     return (
         <div className={`w-full max-w-[1440px] flex flex-col`}>
             {/*  Hero  */}
@@ -212,15 +212,30 @@ export default function Home() {
                     {/*  Scout, Your Personal Style Assistant  */}
                     <div className={`w-full py-10 flex md:justify-between max-md:flex-col gap-10`}>
                         {/*  Benefit description  */}
-                        <div className={`w-full md:w-3/5`}>
+                        <div className={`w-full md:w-3/5 md:pb-10`}>
                             <FeatureText
                                 title={`Scout, Your Personal Style Assistant`}
                                 description={`Searching for the perfect outfit for a special occasion? Scout is here to help. From weddings to milestone moments, this intuitive style assistant finds standout pieces that make you shine.\nNo endless scrolling required.`} />
                         </div>
 
-                        {/*  FIXME: Illustration  */}
                         {/*  Illustration  */}
-                        <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-80 max-md:left-1/2 max-md:-translate-x-1/2 bg-orange-200`}></div>
+                        <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 max-md:left-1/2 max-md:-translate-x-1/2 flex gap-3 overflow-x-hidden`}>
+                            <div className={`max-xl:hidden w-1/2 h-72 absolute -left-3 -translate-x-1/2 top-[calc(50%-15px)] -translate-y-1/2 opacity-60`}>
+                                <SuggestionCard title={`Sunday's Cocktail Party`} description={`Scout's recommendations`} image={`/featured/the_quiet_life_2.jpg`} />
+                            </div>
+
+                            <div className={`max-[400px]:w-[calc(100%-28px)] md:w-[calc(100%-28px)] lg:w-2/3 xl:w-1/2 h-80 mt-3.5 mb-10 relative left-1/2 -translate-x-1/2 shadow-xl`}>
+                                <SuggestionCard
+                                    title={`Your graduation gala event`}
+                                    description={`Scout's recommendations`}
+                                    image={`/featured/the_quiet_life_2.jpg`}
+                                    ping={true} />
+                            </div>
+
+                            <div className={`max-xl:hidden w-1/2 h-72 absolute -right-3 translate-x-1/2 top-[calc(50%-15px)] -translate-y-1/2 opacity-60`}>
+                                <SuggestionCard title={`Julia's birthday gift`} description={`Scout's recommendations`} image={`/featured/the_quiet_life_2.jpg`} />
+                            </div>
+                        </div>
                     </div>
 
                     {/*  Unlimited Choices, Global Reach  */}
@@ -233,10 +248,12 @@ export default function Home() {
                         </div>
 
                         {/*  Illustration  */}
-                        <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-36 md:h-80 max-md:left-1/2 max-md:-translate-x-1/2 flex flex-col md:justify-center items-center gap-2`}>
-                            <div className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 max-[400px]:translate-x-0 max-md:-translate-x-5 lg:-translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
+                        <div
+                            className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-36 md:h-80 max-md:left-1/2 max-md:-translate-x-1/2 flex flex-col md:justify-center items-center gap-2`}>
+                            <div
+                                className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 max-[400px]:translate-x-0 max-md:-translate-x-5 lg:-translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
                                 <div className={`w-20 h-full relative bg-green-300`}>
-                                    <Image src={`/clothes/jacket_men_1.webp`} alt={`Tshirt men`} fill={true}
+                                <Image src={`/clothes/jacket_men_1.webp`} alt={`Tshirt men`} fill={true}
                                            objectFit={`cover`}/>
                                 </div>
 
@@ -434,9 +451,9 @@ export default function Home() {
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-5">
-                            <AccordionTrigger>Is Glance free ?</AccordionTrigger>
+                            <AccordionTrigger>Will Glance be free ?</AccordionTrigger>
                             <AccordionContent>
-                                Yes, Glance is free to use. We believe in making fashion more accessible to everyone !
+                                Yes, Glance will be free to use. We believe in making fashion more accessible to everyone !
                             </AccordionContent>
                         </AccordionItem>
                         <AccordionItem value="item-6">
