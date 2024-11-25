@@ -221,19 +221,19 @@ export default function Home() {
                         {/*  Illustration  */}
                         <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 max-md:left-1/2 max-md:-translate-x-1/2 flex gap-3 overflow-x-hidden`}>
                             <div className={`max-xl:hidden w-1/2 h-72 absolute -left-3 -translate-x-1/2 top-[calc(50%-15px)] -translate-y-1/2 opacity-60`}>
-                                <SuggestionCard title={`Sunday's Cocktail Party`} description={`Scout's recommendations`} image={`/featured/the_quiet_life_2.jpg`} />
+                                <SuggestionCard title={`Sunday's Cocktail Party`} description={`Scout's recommendations`} image={`/clothes/dress_women_3.webp`} />
                             </div>
 
                             <div className={`max-[400px]:w-[calc(100%-28px)] md:w-[calc(100%-28px)] lg:w-2/3 xl:w-1/2 h-80 mt-3.5 mb-10 relative left-1/2 -translate-x-1/2 shadow-xl`}>
                                 <SuggestionCard
                                     title={`Your graduation gala event`}
                                     description={`Scout's recommendations`}
-                                    image={`/featured/the_quiet_life_2.jpg`}
+                                    image={`/clothes/dress_women_1.webp`}
                                     ping={true} />
                             </div>
 
                             <div className={`max-xl:hidden w-1/2 h-72 absolute -right-3 translate-x-1/2 top-[calc(50%-15px)] -translate-y-1/2 opacity-60`}>
-                                <SuggestionCard title={`Julia's birthday gift`} description={`Scout's recommendations`} image={`/featured/the_quiet_life_2.jpg`} />
+                                <SuggestionCard title={`Julia's birthday gift`} description={`Scout's recommendations`} image={`/clothes/bag_women_1.webp`} />
                             </div>
                         </div>
                     </div>

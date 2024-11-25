@@ -13,7 +13,7 @@ export default function SuggestionCard({title, description, image, ping = false}
 
             {/*  FIXME: Put adapted images  */}
             <div className={`w-full relative grow rounded-md overflow-hidden`}>
-                <Image src={image} alt={`Featured image 1`} fill={true} className={`object-cover`} objectPosition={`top`}/>
+                <Image src={image} alt={`Featured image 1`} fill={true} className={`object-contain`} objectPosition={`center`}/>
             </div>
 
             <div className={`w-full mt-3 flex justify-end`}>
