@@ -2,20 +2,8 @@
 
 import Image from "next/image";
 import {useEffect, useState} from "react";
-import {getImageSamples} from "@/lib/utils";
 
 export default function HeroImages() {
-    const number_images = 4;
-
-    // FIXME: Set images
-    // const [images, setImages] = useState<Array<Array<string>>>([
-    //     ["/clothes/shoes_men_1.webp"],
-    //     ["/clothes/jeans_women_1.webp"],
-    //     ["/clothes/top_women_4.webp"],
-    //     ["/clothes/shoes_men_3.webp"],
-    // ]);
-
-    // FIXME: Finish outfits
     const images: Array<Array<string>> = [
     ["/outfits/outfit_1_1.webp", "/outfits/outfit_2_1.jpg", "/outfits/outfit_3_1.jpg", "/outfits/outfit_4_1.avif", "/outfits/outfit_5_1.jpg", "/outfits/outfit_6_1.webp", "/outfits/outfit_7_1.avif", "/outfits/outfit_8_1.webp", "/outfits/outfit_9_1.webp", "/outfits/outfit_10_1.webp"],
         ["/outfits/outfit_1_2.webp", "/outfits/outfit_2_2.webp", "/outfits/outfit_3_2.jpg", "/outfits/outfit_4_2.avif", "/outfits/outfit_5_2.jpg", "/outfits/outfit_6_2.webp", "/outfits/outfit_7_2.avif", "/outfits/outfit_8_2.webp", "/outfits/outfit_9_2.webp", "/outfits/outfit_10_2.webp"],
@@ -24,18 +12,6 @@ export default function HeroImages() {
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
-
-    // useEffect(() => {
-    //     if (images[0].length === 1) {
-    //         setImages(getImageSamples(number_images));
-    //     }
-    //
-    //     const interval = setInterval(() => {
-    //         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    //     }, 3000);
-    //
-    //     return () => clearInterval(interval);
-    // }, [images]);
 
     useEffect(() => {
         const interval = setInterval(() => {
