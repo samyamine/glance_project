@@ -65,8 +65,8 @@ export default function Footer() {
                     &copy; 2024 Glance
                 </p>
                 <Link href={`/`}>
-                    <Image src={`/logos/Logo_2.png`} alt={`Glance`} width={180} height={1} className={`max-sm:hidden`} />
-                    <Image src={`/logos/Logo_2.png`} alt={`Glance`} width={120} height={1} className={`sm:hidden`} />
+                    <Image src={`/logos/logo_2.png`} alt={`Glance`} width={180} height={1} className={`max-sm:hidden`} />
+                    <Image src={`/logos/logo_2.png`} alt={`Glance`} width={120} height={1} className={`sm:hidden`} />
                 </Link>
             </div>
         </div>
