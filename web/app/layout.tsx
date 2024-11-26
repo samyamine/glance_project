@@ -73,10 +73,11 @@ const ttHovesProTrial = localFont({
 export default function RootLayout({children}: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="en">
-            <head>
-                <title>Glance | Your personal AI fashion shopper</title>
-            </head>
-            <body className={`${ttHovesProTrial.className} text-black`}>
+        <head>
+            <link rel="icon" href="/icon.svg" sizes="any"/>
+            <title>Glance | Your personal AI fashion shopper</title>
+        </head>
+        <body className={`${ttHovesProTrial.className} text-black`}>
                 <Header />
                 <div className={`flex flex-col items-center px-4 md:px-16 lg:px-24`}>
                     {children}
