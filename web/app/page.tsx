@@ -18,6 +18,7 @@ import {
 import FeatureText from "@/components/custom/featureText";
 import SuggestionCard from "@/components/custom/suggestionCard";
 
+// FIXME: Add sizes to all fill Images.
 export default function Home() {
     return (
         <div className={`w-full max-w-[1440px] flex flex-col`}>
