@@ -41,11 +41,11 @@ export default function Home() {
 
                     {/*  CTA: What should they do next ?  */}
                     <div className={`w-3/4 max-w-[800px] mt-3 mb-1 flex gap-2 max-sm:justify-center`}>
-                        <Input type={`email`} placeholder={`Email`} className={`max-sm:hidden h-12 border-gray-300 shadow-none`} />
+                        {/*<Input type={`email`} placeholder={`Email`} className={`max-sm:hidden h-12 border-gray-300 shadow-none`} />*/}
 
                         <Link href={`https://tally.so/r/3j0rj9`} target={`_blank`}>
-                            <Button className={`px-8 py-6 text-lg text-white shadow-none rounded-lg bg-gradient-to-tr from-main to-second`}>
-                                Join waitlist
+                            <Button className={`px-8 py-6 text-lg text-white shadow-none rounded-lg bg-gradient-to-tr from-main to-second hover:opacity-80 transition duration-200`}>
+                                Join waitlist &nbsp; →
                             </Button>
                         </Link>
                     </div>
@@ -332,7 +332,8 @@ export default function Home() {
                             <h3 className={`mb-10 flex items-center max-lg:justify-center gap-4 text-3xl font-bold text-green-950`}>
                                 <FaEarthEurope/> Fashion in Green
                             </h3>
-                            <p className={`text-lg text-green-950 max-lg:text-center`}>
+                            {/*<p className={`text-lg text-green-950 max-lg:text-center`}>*/}
+                            <p className={`text-lg text-green-950`}>
                                 At Glance, sustainability is part of our mission. Our Green Mode highlights eco-friendly
                                 and
                                 responsibly-made products, allowing you to make mindful choices with every purchase.
@@ -481,29 +482,48 @@ export default function Home() {
             </section>
 
             {/*  Last Call to Action  */}
-            <section className={`w-full my-60 h-80 relative`}>
-                {/*  Background Bubbles (From left to right)  */}
-                <div className={`w-72 h-72 absolute left-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-left max-xl:hidden`}></div>
-                <div className={`w-44 h-44 md:w-72 md:h-72 absolute top-10 left-1/2 -translate-x-1/2 xl:left-[40%] bg-main mix-blend-multiply filter blur-2xl rounded-full animate-blur-center xl:animate-blur-center-xl`}></div>
-                <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-right max-xl:hidden`}></div>
+            {/*<section className={`w-full my-60 h-80 relative`}>*/}
+            {/*    /!*  Background Bubbles (From left to right)  *!/*/}
+            {/*    <div className={`w-72 h-72 absolute left-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-left max-xl:hidden`}></div>*/}
+            {/*    <div className={`w-44 h-44 md:w-72 md:h-72 absolute top-10 left-1/2 -translate-x-1/2 xl:left-[40%] bg-main mix-blend-multiply filter blur-2xl rounded-full animate-blur-center xl:animate-blur-center-xl`}></div>*/}
+            {/*    <div className={`w-72 h-72 absolute right-[20%] bg-second mix-blend-multiply filter blur-2xl rounded-full animate-blur-right max-xl:hidden`}></div>*/}
 
-                <div className={`relative top-1/2 -translate-y-1/2`}>
+            {/*    <div className={`relative top-1/2 -translate-y-1/2`}>*/}
+            {/*        <h2 className={`mb-10 text-center text-3xl md:text-4xl font-bold`}>*/}
+            {/*            Ready to Transform Your Shopping Experience ?*/}
+            {/*        </h2>*/}
+
+            {/*        <div className={`max-sm:hidden w-3/4 max-w-[700px] p-1 border-gray-20 rounded-lg flex gap-2 relative left-1/2 -translate-x-1/2 bg-white`}>*/}
+            {/*            <Input type={`email`} placeholder={`Email`}*/}
+            {/*                   className={`h-12 border-gray-300 shadow-none border-none`}/>*/}
+
+            {/*            <Button className={`px-8 py-6 text-lg shadow-none rounded-lg`}>*/}
+            {/*                Join waitlist*/}
+            {/*            </Button>*/}
+            {/*        </div>*/}
+
+            {/*        <Link href={`https://tally.so/r/3j0rj9`} target={`_blank`}>*/}
+            {/*            <Button className={`sm:hidden relative left-1/2 -translate-x-1/2 px-8 py-6 text-lg shadow-none rounded-lg`}>*/}
+            {/*                Join waitlist*/}
+            {/*            </Button>*/}
+            {/*        </Link>*/}
+
+            {/*        <p className={`max-sm:hidden mt-3 text-xs text-center`}>*/}
+            {/*            We'll never share your info with anyone.*/}
+            {/*        </p>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
+
+            {/*  Last Call to Action  */}
+            <section className={`w-full my-60 relative `}>
+                <div>
                     <h2 className={`mb-10 text-center text-3xl md:text-4xl font-bold`}>
                         Ready to Transform Your Shopping Experience ?
                     </h2>
 
-                    <div className={`max-sm:hidden w-3/4 max-w-[700px] p-1 border-gray-20 rounded-lg flex gap-2 relative left-1/2 -translate-x-1/2 bg-white`}>
-                        <Input type={`email`} placeholder={`Email`}
-                               className={`h-12 border-gray-300 shadow-none border-none`}/>
-
-                        <Button className={`px-8 py-6 text-lg shadow-none rounded-lg`}>
-                            Join waitlist
-                        </Button>
-                    </div>
-
                     <Link href={`https://tally.so/r/3j0rj9`} target={`_blank`}>
-                        <Button className={`sm:hidden relative left-1/2 -translate-x-1/2 px-8 py-6 text-lg shadow-none rounded-lg`}>
-                            Join waitlist
+                        <Button className={`px-8 py-6 relative left-1/2 -translate-x-1/2 text-lg text-white shadow-none rounded-lg bg-gradient-to-tr from-main to-second hover:opacity-80 transition duration-200`}>
+                            Join waitlist &nbsp; →
                         </Button>
                     </Link>
 
