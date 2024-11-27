@@ -1,5 +1,4 @@
 import {Button} from "@/components/ui/button";
-import {Input} from "@/components/ui/input";
 import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion";
 import Slider from "@/components/custom/slider";
 import {EHorizontalDirection} from "@/lib/enums";
