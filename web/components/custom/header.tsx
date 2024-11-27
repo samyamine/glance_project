@@ -46,9 +46,11 @@ export default function Header() {
                         </ul>
                     </nav>
 
-                    <Button className={`px-8 py-6 text-lg shadow-none rounded-full max-md:hidden`}>
-                        Join waitlist
-                    </Button>
+                    <Link href={`https://tally.so/r/3j0rj9`} target={"_blank"}>
+                        <Button className={`px-8 py-6 text-lg shadow-none rounded-full max-md:hidden`}>
+                            Join waitlist
+                        </Button>
+                    </Link>
                 </div>
             </div>
 

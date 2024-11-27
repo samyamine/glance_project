@@ -17,6 +17,7 @@ import {
 } from "react-icons/fa6";
 import FeatureText from "@/components/custom/featureText";
 import SuggestionCard from "@/components/custom/suggestionCard";
+import Link from "next/link";
 
 // FIXME: Add sizes to all fill Images.
 export default function Home() {
@@ -42,9 +43,11 @@ export default function Home() {
                     <div className={`w-3/4 max-w-[800px] mt-3 mb-1 flex gap-2 max-sm:justify-center`}>
                         <Input type={`email`} placeholder={`Email`} className={`max-sm:hidden h-12 border-gray-300 shadow-none`} />
 
-                        <Button className={`px-8 py-6 text-lg text-white shadow-none rounded-lg bg-gradient-to-tr from-main to-second`}>
-                            Join waitlist
-                        </Button>
+                        <Link href={`https://tally.so/r/3j0rj9`} target={`_blank`}>
+                            <Button className={`px-8 py-6 text-lg text-white shadow-none rounded-lg bg-gradient-to-tr from-main to-second`}>
+                                Join waitlist
+                            </Button>
+                        </Link>
                     </div>
                 </div>
 
@@ -249,8 +252,7 @@ export default function Home() {
                         </div>
 
                         {/*  Illustration  */}
-                        <div
-                            className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-36 md:h-80 max-md:left-1/2 max-md:-translate-x-1/2 flex flex-col md:justify-center items-center gap-2`}>
+                        <div className={`relative w-full max-md:max-w-[500px] md:w-2/5 h-36 md:h-80 max-md:left-1/2 max-md:-translate-x-1/2 flex flex-col md:justify-center items-center gap-2`}>
                             <div
                                 className={`w-full max-w-[320px] lg:w-[90%] xl:w-[70%] pl-1 pr-2 lg:pr-10 py-1 max-[400px]:translate-x-0 max-md:-translate-x-5 lg:-translate-x-5 flex gap-3 rounded-lg shadow-xl border-2 border-black overflow-hidden bg-white`}>
                                 <div className={`w-20 h-full relative bg-green-300`}>
@@ -499,9 +501,11 @@ export default function Home() {
                         </Button>
                     </div>
 
-                    <Button className={`sm:hidden relative left-1/2 -translate-x-1/2 px-8 py-6 text-lg shadow-none rounded-lg`}>
-                        Join waitlist
-                    </Button>
+                    <Link href={`https://tally.so/r/3j0rj9`} target={`_blank`}>
+                        <Button className={`sm:hidden relative left-1/2 -translate-x-1/2 px-8 py-6 text-lg shadow-none rounded-lg`}>
+                            Join waitlist
+                        </Button>
+                    </Link>
 
                     <p className={`max-sm:hidden mt-3 text-xs text-center`}>
                         We'll never share your info with anyone.
